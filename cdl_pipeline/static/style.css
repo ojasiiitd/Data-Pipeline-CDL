@@ -1,0 +1,10 @@
+.navbar-custom {
+    background-color: #0033A0; /* Ambedkarite blue */
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+.navbar-custom .nav-link:hover {
+    color: #d0d0d0;
+}
