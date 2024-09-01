@@ -21,7 +21,9 @@ def inputData():
     if request.method == "POST" and form.validate():
         session['op1'] = form.getOp1.data
         session['op2'] = form.getOp2.data
-        session['data'] = df_raw.to_json(orient='split')
+
+        
+
         return redirect(url_for('report'))
 
     return render_template('input.html',
