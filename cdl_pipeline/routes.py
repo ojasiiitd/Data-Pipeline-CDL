@@ -13,17 +13,19 @@ def homepage():
 @app.route("/input" , methods = ['GET' , 'POST'])
 # user proivides the sequential input using a form here, and also sees the dataset
 def inputData():
-    form = DataInputForm()
+    form = DataInputForm(request.form)
 
-    df_raw = pd.read_csv("data/Assignment Task _ Dataset.csv")
-
+    df_raw = pd.read_csv("data/Assignment Task _ Dataset.csv" , index_col=False)
+    df_sample = df_raw.sample(7)
 
     if request.method == "POST" and form.validate():
-        return redirect(url_for("output"))
+        print(form.data)
+
     return render_template('input.html',
-                           df_html = df_raw.sample(7).to_html(classes='table table-striped table-bordered'),
+                           df_html = df_sample.to_html(classes='table table-striped table-bordered'),
                            form = form)
 
-@app.route("/output")
+@app.route("/report")
+# user proivides the sequential input using a form here, and also sees the dataset
 def output():
     return render_template('report.html')

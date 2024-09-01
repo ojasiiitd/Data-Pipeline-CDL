@@ -14,18 +14,18 @@
 
     <hr>
 
-    <h3 class="mb-4">Data Input Form</h3>
+    <h3 class="mb-4">Pre-Processing Tasks (ordered)</h3>
     <form method="POST" action="">
         {{ form.hidden_tag }}  <!-- CSRF protection -->
 
         <div class="form-group">
-            {{ form.getOpt1.label(class="form-label") }}
-            {{ form.getOpt1(class="form-control") }}
+            {{ form.getOp1.label(class="form-label") }}
+            {{ form.getOp1(class="form-control") }}
         </div>
 
         <div class="form-group">
-            {{ form.getOpt2.label(class="form-label") }}
-            {{ form.getOpt2(class="form-control") }}
+            {{ form.getOp2.label(class="form-label") }}
+            {{ form.getOp2(class="form-control") }}
         </div>
 
         <div class="form-group">
