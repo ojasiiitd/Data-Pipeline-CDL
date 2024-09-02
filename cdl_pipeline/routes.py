@@ -33,29 +33,31 @@ def inputData():
     if request.method == "POST" and form.validate():
         logger.info("Form validation successful, POST request sent.")
 
-        try:
-            logger.info("Reading form data.")
-            
-            session['op1'] = form.getOp1.data
-            session['op2'] = form.getOp2.data
-            session['col_op1'] = ast.literal_eval(form.col_op1.data)
-            session['col_op2'] = ast.literal_eval(form.col_op2.data)
+        logger.info("Reading form data.")
+        
+        # print(form.getOp1.data , form.col_op1.data)
+        # print(form.getOp2.data , form.col_op2.data)
 
-            logger.info("Form data read successful.")
-        except:
-            logger.error("Form data read failed.")
+        cols_1 = eval(str(form.col_op1.data))
+        cols_2 = eval(str(form.col_op2.data))
+
+        session['op1'] = form.getOp1.data
+        session['op2'] = form.getOp2.data
+        session['col_op1'] = cols_1
+        session['col_op2'] = cols_2
+
+        logger.info("Form data read successful.")
 
         logger.info("Processing data.")
 
-        tasklist = [(form.getOp1.data , session['col_op1']),
-                    (form.getOp2.data , session['col_op2'])
+        tasklist = [(form.getOp1.data , cols_1),
+                    (form.getOp2.data , cols_2)
                     ]
         
         print(tasklist)
 
         for i,ops in enumerate(tasklist):
-            session['report_op1'] = lib_map[ops[0]](df_raw , ops[1])
-            session['report_op2'] = lib_map[ops[0]](df_raw , ops[1])
+            session[f'report_op{i}'] = lib_map[ops[0]](df_raw , ops[1])
 
         return redirect(url_for('report'))
 

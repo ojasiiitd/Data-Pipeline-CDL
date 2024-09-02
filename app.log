@@ -1111,3 +1111,436 @@
 2024-09-02 18:03:29,678 - INFO -  * Restarting with stat
 2024-09-02 18:03:31,505 - WARNING -  * Debugger is active!
 2024-09-02 18:03:31,515 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:09:27,348 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 18:09:27,348 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 18:09:27,353 - INFO -  * Restarting with stat
+2024-09-02 18:09:29,182 - WARNING -  * Debugger is active!
+2024-09-02 18:09:29,200 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:09:29,742 - INFO - Accessing input form endpoint.
+2024-09-02 18:09:29,749 - INFO - Reading datafile.
+2024-09-02 18:09:29,765 - INFO - Datafile read succeeded.
+2024-09-02 18:09:29,835 - INFO - 127.0.0.1 - - [02/Sep/2024 18:09:29] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:09:30,210 - INFO - 127.0.0.1 - - [02/Sep/2024 18:09:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:09:33,087 - INFO - Accessing input form endpoint.
+2024-09-02 18:09:33,088 - INFO - Reading datafile.
+2024-09-02 18:09:33,094 - INFO - Datafile read succeeded.
+2024-09-02 18:09:33,100 - INFO - 127.0.0.1 - - [02/Sep/2024 18:09:33] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:09:33,128 - INFO - 127.0.0.1 - - [02/Sep/2024 18:09:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:09:52,114 - INFO - Accessing input form endpoint.
+2024-09-02 18:09:52,115 - INFO - Reading datafile.
+2024-09-02 18:09:52,119 - INFO - Datafile read succeeded.
+2024-09-02 18:09:52,120 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:09:52,120 - INFO - Reading form data.
+2024-09-02 18:09:52,120 - ERROR - Form data read failed.
+2024-09-02 18:09:52,121 - INFO - Processing data.
+2024-09-02 18:09:52,121 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:09:52,123 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:09:52,126 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 18:09:52,147 - INFO - 127.0.0.1 - - [02/Sep/2024 18:09:52] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:09:52,174 - INFO - 127.0.0.1 - - [02/Sep/2024 18:09:52] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:09:52,175 - INFO - 127.0.0.1 - - [02/Sep/2024 18:09:52] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:09:52,215 - INFO - 127.0.0.1 - - [02/Sep/2024 18:09:52] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=7rw5kux6bJXv93u3XG6f HTTP/1.1" 200 -
+2024-09-02 18:09:52,233 - INFO - 127.0.0.1 - - [02/Sep/2024 18:09:52] "[36mGET /input?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-02 18:11:08,494 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:11:08,604 - INFO -  * Restarting with stat
+2024-09-02 18:11:10,114 - WARNING -  * Debugger is active!
+2024-09-02 18:11:10,122 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:11:18,118 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:11:18,228 - INFO -  * Restarting with stat
+2024-09-02 18:11:19,906 - WARNING -  * Debugger is active!
+2024-09-02 18:11:19,923 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:11:22,495 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:11:22,596 - INFO -  * Restarting with stat
+2024-09-02 18:11:23,931 - WARNING -  * Debugger is active!
+2024-09-02 18:11:23,944 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:11:29,195 - INFO - Accessing input form endpoint.
+2024-09-02 18:11:29,202 - INFO - Reading datafile.
+2024-09-02 18:11:29,217 - INFO - Datafile read succeeded.
+2024-09-02 18:11:29,217 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:11:29,217 - INFO - Reading form data.
+2024-09-02 18:11:29,221 - ERROR - Form data read failed.
+2024-09-02 18:11:29,221 - INFO - Processing data.
+2024-09-02 18:11:29,221 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:11:29,240 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:11:29,245 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 18:11:29,280 - INFO - 127.0.0.1 - - [02/Sep/2024 18:11:29] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:11:29,497 - INFO - 127.0.0.1 - - [02/Sep/2024 18:11:29] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:11:29,502 - INFO - 127.0.0.1 - - [02/Sep/2024 18:11:29] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:11:29,521 - INFO - 127.0.0.1 - - [02/Sep/2024 18:11:29] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=p8P4fQgVVOIzI6UwOLJS HTTP/1.1" 200 -
+2024-09-02 18:11:29,539 - INFO - 127.0.0.1 - - [02/Sep/2024 18:11:29] "[36mGET /input?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-02 18:12:03,871 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:12:03,972 - INFO -  * Restarting with stat
+2024-09-02 18:12:05,546 - WARNING -  * Debugger is active!
+2024-09-02 18:12:05,558 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:12:39,099 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 18:12:39,099 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 18:12:39,102 - INFO -  * Restarting with stat
+2024-09-02 18:12:40,484 - WARNING -  * Debugger is active!
+2024-09-02 18:12:40,494 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:13:15,199 - INFO - Accessing input form endpoint.
+2024-09-02 18:13:15,202 - INFO - Reading datafile.
+2024-09-02 18:13:15,211 - INFO - Datafile read succeeded.
+2024-09-02 18:13:15,241 - INFO - 127.0.0.1 - - [02/Sep/2024 18:13:15] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:13:15,414 - INFO - 127.0.0.1 - - [02/Sep/2024 18:13:15] "GET /static/style.css HTTP/1.1" 200 -
+2024-09-02 18:13:25,530 - INFO - Accessing input form endpoint.
+2024-09-02 18:13:25,531 - INFO - Reading datafile.
+2024-09-02 18:13:25,538 - INFO - Datafile read succeeded.
+2024-09-02 18:13:25,538 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:13:25,538 - INFO - Reading form data.
+2024-09-02 18:13:25,539 - ERROR - Form data read failed.
+2024-09-02 18:13:25,540 - INFO - Processing data.
+2024-09-02 18:13:25,586 - INFO - 127.0.0.1 - - [02/Sep/2024 18:13:25] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:13:25,633 - INFO - 127.0.0.1 - - [02/Sep/2024 18:13:25] "GET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-02 18:13:25,637 - INFO - 127.0.0.1 - - [02/Sep/2024 18:13:25] "GET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-02 18:13:25,677 - INFO - 127.0.0.1 - - [02/Sep/2024 18:13:25] "GET /input?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-02 18:13:25,678 - INFO - 127.0.0.1 - - [02/Sep/2024 18:13:25] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=NZhaoNzRpRNerVIM2rOl HTTP/1.1" 200 -
+2024-09-02 18:14:18,154 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:14:18,263 - INFO -  * Restarting with stat
+2024-09-02 18:14:19,770 - WARNING -  * Debugger is active!
+2024-09-02 18:14:19,779 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:14:23,367 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:14:23,473 - INFO -  * Restarting with stat
+2024-09-02 18:14:26,367 - WARNING -  * Debugger is active!
+2024-09-02 18:14:26,383 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:14:27,800 - INFO - Accessing input form endpoint.
+2024-09-02 18:14:27,803 - INFO - Reading datafile.
+2024-09-02 18:14:27,811 - INFO - Datafile read succeeded.
+2024-09-02 18:14:27,830 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:27] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:14:32,739 - INFO - Accessing input form endpoint.
+2024-09-02 18:14:32,740 - INFO - Reading datafile.
+2024-09-02 18:14:32,746 - INFO - Datafile read succeeded.
+2024-09-02 18:14:32,747 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:14:32,747 - INFO - Reading form data.
+2024-09-02 18:14:32,747 - ERROR - Form data read failed.
+2024-09-02 18:14:32,748 - INFO - Processing data.
+2024-09-02 18:14:32,748 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:14:32,794 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:32] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:14:33,004 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:33] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:14:33,006 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:33] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:14:33,018 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:33] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=WxWAjAK3IvW52y7JtX6s HTTP/1.1" 200 -
+2024-09-02 18:14:34,330 - INFO - Accessing input form endpoint.
+2024-09-02 18:14:34,331 - INFO - Reading datafile.
+2024-09-02 18:14:34,335 - INFO - Datafile read succeeded.
+2024-09-02 18:14:34,341 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:34] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:14:35,926 - INFO - Accessing input form endpoint.
+2024-09-02 18:14:35,926 - INFO - Reading datafile.
+2024-09-02 18:14:35,930 - INFO - Datafile read succeeded.
+2024-09-02 18:14:35,936 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:35] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:14:35,968 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:14:38,340 - INFO - Accessing input form endpoint.
+2024-09-02 18:14:38,341 - INFO - Reading datafile.
+2024-09-02 18:14:38,345 - INFO - Datafile read succeeded.
+2024-09-02 18:14:38,345 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:14:38,345 - INFO - Reading form data.
+2024-09-02 18:14:38,347 - ERROR - Form data read failed.
+2024-09-02 18:14:38,348 - INFO - Processing data.
+2024-09-02 18:14:38,349 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:14:38,385 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:38] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:14:38,417 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:38] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:14:38,419 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:38] "GET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-02 18:14:38,436 - INFO - 127.0.0.1 - - [02/Sep/2024 18:14:38] "[36mGET /input?__debugger__=yes&cmd=resource&f=console.png&s=WxWAjAK3IvW52y7JtX6s HTTP/1.1[0m" 304 -
+2024-09-02 18:14:51,421 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:14:51,539 - INFO -  * Restarting with stat
+2024-09-02 18:14:52,977 - WARNING -  * Debugger is active!
+2024-09-02 18:14:52,987 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:14:56,475 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:14:56,560 - INFO -  * Restarting with stat
+2024-09-02 18:14:57,996 - WARNING -  * Debugger is active!
+2024-09-02 18:14:58,015 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:15:00,076 - INFO - Accessing input form endpoint.
+2024-09-02 18:15:00,078 - INFO - Reading datafile.
+2024-09-02 18:15:00,088 - INFO - Datafile read succeeded.
+2024-09-02 18:15:00,110 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:00] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:15:00,169 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-02 18:15:01,052 - INFO - Accessing input form endpoint.
+2024-09-02 18:15:01,053 - INFO - Reading datafile.
+2024-09-02 18:15:01,057 - INFO - Datafile read succeeded.
+2024-09-02 18:15:01,060 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:01] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:15:01,147 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:15:03,460 - INFO - Accessing input form endpoint.
+2024-09-02 18:15:03,461 - INFO - Reading datafile.
+2024-09-02 18:15:03,465 - INFO - Datafile read succeeded.
+2024-09-02 18:15:03,466 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:15:03,466 - INFO - Reading form data.
+2024-09-02 18:15:03,466 - ERROR - Form data read failed.
+2024-09-02 18:15:03,467 - INFO - Processing data.
+2024-09-02 18:15:03,506 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:03] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:15:03,535 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:03] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:15:03,536 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:03] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:15:03,547 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:03] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=oNTcXIwGrsCuljTKtpoJ HTTP/1.1" 200 -
+2024-09-02 18:15:43,004 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:15:43,130 - INFO -  * Restarting with stat
+2024-09-02 18:15:45,190 - WARNING -  * Debugger is active!
+2024-09-02 18:15:45,211 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:15:52,309 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:15:52,406 - INFO -  * Restarting with stat
+2024-09-02 18:15:55,042 - WARNING -  * Debugger is active!
+2024-09-02 18:15:55,063 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:15:56,144 - INFO - Accessing input form endpoint.
+2024-09-02 18:15:56,148 - INFO - Reading datafile.
+2024-09-02 18:15:56,156 - INFO - Datafile read succeeded.
+2024-09-02 18:15:56,157 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:15:56,157 - INFO - Reading form data.
+2024-09-02 18:15:56,158 - ERROR - Form data read failed.
+2024-09-02 18:15:56,158 - INFO - Processing data.
+2024-09-02 18:15:56,177 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:56] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:15:56,310 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:56] "GET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-02 18:15:56,311 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:56] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:15:56,327 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:56] "GET /input?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-02 18:15:56,329 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:56] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=9O5prFIVcgwe7g9ZaaZz HTTP/1.1" 200 -
+2024-09-02 18:15:57,540 - INFO - Accessing input form endpoint.
+2024-09-02 18:15:57,540 - INFO - Reading datafile.
+2024-09-02 18:15:57,544 - INFO - Datafile read succeeded.
+2024-09-02 18:15:57,560 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:57] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:15:57,609 - INFO - 127.0.0.1 - - [02/Sep/2024 18:15:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-02 18:16:06,904 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:16:06,995 - INFO -  * Restarting with stat
+2024-09-02 18:16:09,172 - WARNING -  * Debugger is active!
+2024-09-02 18:16:09,184 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:16:10,372 - INFO - Accessing input form endpoint.
+2024-09-02 18:16:10,375 - INFO - Reading datafile.
+2024-09-02 18:16:10,381 - INFO - Datafile read succeeded.
+2024-09-02 18:16:10,398 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:10] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:16:10,498 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:16:10,977 - INFO - Accessing input form endpoint.
+2024-09-02 18:16:10,979 - INFO - Reading datafile.
+2024-09-02 18:16:10,983 - INFO - Datafile read succeeded.
+2024-09-02 18:16:10,984 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:16:10,984 - INFO - Reading form data.
+2024-09-02 18:16:10,984 - ERROR - Form data read failed.
+2024-09-02 18:16:10,984 - INFO - Processing data.
+2024-09-02 18:16:11,008 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:11] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:16:11,046 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:11] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:16:11,047 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:11] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:16:11,073 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:11] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=vR0JuUITGCjLOmm5G0me HTTP/1.1" 200 -
+2024-09-02 18:16:29,830 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:16:29,940 - INFO -  * Restarting with stat
+2024-09-02 18:16:32,251 - WARNING -  * Debugger is active!
+2024-09-02 18:16:32,263 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:16:33,215 - INFO - Accessing input form endpoint.
+2024-09-02 18:16:33,219 - INFO - Reading datafile.
+2024-09-02 18:16:33,226 - INFO - Datafile read succeeded.
+2024-09-02 18:16:33,226 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:16:33,226 - INFO - Reading form data.
+2024-09-02 18:16:33,253 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:33] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:16:33,380 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:33] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:16:33,381 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:33] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:16:33,395 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:33] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=eoL0LzGdwHdLpl0pIVUy HTTP/1.1" 200 -
+2024-09-02 18:16:35,099 - INFO - Accessing input form endpoint.
+2024-09-02 18:16:35,100 - INFO - Reading datafile.
+2024-09-02 18:16:35,103 - INFO - Datafile read succeeded.
+2024-09-02 18:16:35,121 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:35] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:16:35,173 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-02 18:16:36,641 - INFO - Accessing input form endpoint.
+2024-09-02 18:16:36,642 - INFO - Reading datafile.
+2024-09-02 18:16:36,645 - INFO - Datafile read succeeded.
+2024-09-02 18:16:36,646 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:16:36,646 - INFO - Reading form data.
+2024-09-02 18:16:36,676 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:36] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:16:36,707 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:36] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:16:36,709 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:36] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:16:36,720 - INFO - 127.0.0.1 - - [02/Sep/2024 18:16:36] "[36mGET /input?__debugger__=yes&cmd=resource&f=console.png&s=eoL0LzGdwHdLpl0pIVUy HTTP/1.1[0m" 304 -
+2024-09-02 18:17:29,190 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:17:29,289 - INFO -  * Restarting with stat
+2024-09-02 18:17:30,834 - WARNING -  * Debugger is active!
+2024-09-02 18:17:30,844 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:17:46,474 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:17:46,564 - INFO -  * Restarting with stat
+2024-09-02 18:17:48,703 - WARNING -  * Debugger is active!
+2024-09-02 18:17:48,716 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:17:49,592 - INFO - Accessing input form endpoint.
+2024-09-02 18:17:49,594 - INFO - Reading datafile.
+2024-09-02 18:17:49,602 - INFO - Datafile read succeeded.
+2024-09-02 18:17:49,619 - INFO - 127.0.0.1 - - [02/Sep/2024 18:17:49] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:17:50,751 - INFO - Accessing input form endpoint.
+2024-09-02 18:17:50,751 - INFO - Reading datafile.
+2024-09-02 18:17:50,756 - INFO - Datafile read succeeded.
+2024-09-02 18:17:50,760 - INFO - 127.0.0.1 - - [02/Sep/2024 18:17:50] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:17:50,854 - INFO - 127.0.0.1 - - [02/Sep/2024 18:17:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:17:52,071 - INFO - Accessing input form endpoint.
+2024-09-02 18:17:52,071 - INFO - Reading datafile.
+2024-09-02 18:17:52,075 - INFO - Datafile read succeeded.
+2024-09-02 18:17:52,076 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:17:52,076 - INFO - Reading form data.
+2024-09-02 18:17:52,112 - INFO - 127.0.0.1 - - [02/Sep/2024 18:17:52] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:17:52,144 - INFO - 127.0.0.1 - - [02/Sep/2024 18:17:52] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:17:52,146 - INFO - 127.0.0.1 - - [02/Sep/2024 18:17:52] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:17:52,158 - INFO - 127.0.0.1 - - [02/Sep/2024 18:17:52] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=S0NeFLloFI3pXpYD7ZqE HTTP/1.1" 200 -
+2024-09-02 18:17:59,189 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:17:59,307 - INFO -  * Restarting with stat
+2024-09-02 18:18:01,402 - WARNING -  * Debugger is active!
+2024-09-02 18:18:01,413 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:18:10,306 - INFO - Accessing input form endpoint.
+2024-09-02 18:18:10,309 - INFO - Reading datafile.
+2024-09-02 18:18:10,319 - INFO - Datafile read succeeded.
+2024-09-02 18:18:10,349 - INFO - 127.0.0.1 - - [02/Sep/2024 18:18:10] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:20:03,888 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 18:20:03,889 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 18:20:03,890 - INFO -  * Restarting with stat
+2024-09-02 18:20:05,207 - WARNING -  * Debugger is active!
+2024-09-02 18:20:05,225 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:21:37,929 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:21:38,104 - INFO -  * Restarting with stat
+2024-09-02 18:21:39,956 - WARNING -  * Debugger is active!
+2024-09-02 18:21:39,965 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:22:07,863 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:22:07,989 - INFO -  * Restarting with stat
+2024-09-02 18:22:09,803 - WARNING -  * Debugger is active!
+2024-09-02 18:22:09,819 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:22:13,774 - INFO - Accessing input form endpoint.
+2024-09-02 18:22:13,777 - INFO - Reading datafile.
+2024-09-02 18:22:13,784 - INFO - Datafile read succeeded.
+2024-09-02 18:22:13,803 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:13] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:22:13,914 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:13] "GET /static/style.css HTTP/1.1" 200 -
+2024-09-02 18:22:14,866 - INFO - Accessing input form endpoint.
+2024-09-02 18:22:14,867 - INFO - Reading datafile.
+2024-09-02 18:22:14,871 - INFO - Datafile read succeeded.
+2024-09-02 18:22:14,871 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:22:14,871 - INFO - Reading form data.
+2024-09-02 18:22:14,899 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:14] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:22:14,936 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:14] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:22:14,940 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:14] "GET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-02 18:22:14,953 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:14] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=ko05Z9NnYxCu2VIWm2OM HTTP/1.1" 200 -
+2024-09-02 18:22:42,796 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:22:42,912 - INFO -  * Restarting with stat
+2024-09-02 18:22:44,519 - WARNING -  * Debugger is active!
+2024-09-02 18:22:44,531 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:22:44,661 - INFO - Accessing input form endpoint.
+2024-09-02 18:22:44,663 - INFO - Reading datafile.
+2024-09-02 18:22:44,669 - INFO - Datafile read succeeded.
+2024-09-02 18:22:44,690 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:44] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:22:45,477 - INFO - Accessing input form endpoint.
+2024-09-02 18:22:45,477 - INFO - Reading datafile.
+2024-09-02 18:22:45,481 - INFO - Datafile read succeeded.
+2024-09-02 18:22:45,486 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:45] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:22:45,580 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:22:48,171 - INFO - Accessing input form endpoint.
+2024-09-02 18:22:48,173 - INFO - Reading datafile.
+2024-09-02 18:22:48,178 - INFO - Datafile read succeeded.
+2024-09-02 18:22:48,178 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:22:48,179 - INFO - Reading form data.
+2024-09-02 18:22:48,207 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:48] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:22:48,245 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:48] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:22:48,246 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:48] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:22:48,260 - INFO - 127.0.0.1 - - [02/Sep/2024 18:22:48] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=JUIRLiTEkxtNWR2lMFhE HTTP/1.1" 200 -
+2024-09-02 18:23:27,691 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:23:27,829 - INFO -  * Restarting with stat
+2024-09-02 18:23:30,101 - WARNING -  * Debugger is active!
+2024-09-02 18:23:30,112 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:23:30,468 - INFO - Accessing input form endpoint.
+2024-09-02 18:23:30,471 - INFO - Reading datafile.
+2024-09-02 18:23:30,480 - INFO - Datafile read succeeded.
+2024-09-02 18:23:30,480 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:23:30,481 - INFO - Reading form data.
+2024-09-02 18:23:30,481 - INFO - Form data read successful.
+2024-09-02 18:23:30,481 - INFO - Processing data.
+2024-09-02 18:23:30,482 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:23:30,484 - ERROR - Column 'a' not found!
+2024-09-02 18:23:30,511 - INFO - 127.0.0.1 - - [02/Sep/2024 18:23:30] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:23:30,670 - INFO - 127.0.0.1 - - [02/Sep/2024 18:23:30] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:23:30,676 - INFO - 127.0.0.1 - - [02/Sep/2024 18:23:30] "GET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-02 18:23:30,692 - INFO - 127.0.0.1 - - [02/Sep/2024 18:23:30] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=IPrFuxZpPQcwF9e6RWmA HTTP/1.1" 200 -
+2024-09-02 18:23:59,011 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:23:59,105 - INFO -  * Restarting with stat
+2024-09-02 18:24:00,554 - WARNING -  * Debugger is active!
+2024-09-02 18:24:00,564 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:24:01,955 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:24:02,048 - INFO -  * Restarting with stat
+2024-09-02 18:24:04,170 - WARNING -  * Debugger is active!
+2024-09-02 18:24:04,184 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:24:09,516 - INFO - Accessing input form endpoint.
+2024-09-02 18:24:09,519 - INFO - Reading datafile.
+2024-09-02 18:24:09,529 - INFO - Datafile read succeeded.
+2024-09-02 18:24:09,529 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:24:09,529 - INFO - Reading form data.
+2024-09-02 18:24:09,553 - INFO - 127.0.0.1 - - [02/Sep/2024 18:24:09] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 18:24:09,696 - INFO - 127.0.0.1 - - [02/Sep/2024 18:24:09] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:24:09,697 - INFO - 127.0.0.1 - - [02/Sep/2024 18:24:09] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:24:09,710 - INFO - 127.0.0.1 - - [02/Sep/2024 18:24:09] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=8zEGjh3GRz3I8PA0Hg8d HTTP/1.1" 200 -
+2024-09-02 18:24:30,688 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:24:30,922 - INFO -  * Restarting with stat
+2024-09-02 18:24:32,945 - WARNING -  * Debugger is active!
+2024-09-02 18:24:32,960 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:24:53,378 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 18:24:53,466 - INFO -  * Restarting with stat
+2024-09-02 18:24:54,723 - WARNING -  * Debugger is active!
+2024-09-02 18:24:54,733 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:24:59,853 - INFO - Accessing input form endpoint.
+2024-09-02 18:24:59,855 - INFO - Reading datafile.
+2024-09-02 18:24:59,862 - INFO - Datafile read succeeded.
+2024-09-02 18:24:59,883 - INFO - 127.0.0.1 - - [02/Sep/2024 18:24:59] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:25:02,676 - INFO - Accessing input form endpoint.
+2024-09-02 18:25:02,676 - INFO - Reading datafile.
+2024-09-02 18:25:02,681 - INFO - Datafile read succeeded.
+2024-09-02 18:25:02,681 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:25:02,681 - INFO - Reading form data.
+2024-09-02 18:25:02,682 - INFO - Form data read successful.
+2024-09-02 18:25:02,682 - INFO - Processing data.
+2024-09-02 18:25:02,683 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:25:02,686 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:25:02,688 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 18:25:02,689 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 18:25:02,692 - INFO - 127.0.0.1 - - [02/Sep/2024 18:25:02] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 18:25:02,701 - INFO - Accessing the report endpoint.
+2024-09-02 18:25:02,708 - INFO - 127.0.0.1 - - [02/Sep/2024 18:25:02] "GET /report HTTP/1.1" 200 -
+2024-09-02 18:25:02,888 - INFO - 127.0.0.1 - - [02/Sep/2024 18:25:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:25:21,142 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:25:21,269 - INFO -  * Restarting with stat
+2024-09-02 18:25:24,177 - WARNING -  * Debugger is active!
+2024-09-02 18:25:24,191 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:34:43,066 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:34:43,179 - INFO -  * Restarting with stat
+2024-09-02 18:34:44,844 - WARNING -  * Debugger is active!
+2024-09-02 18:34:44,852 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:35:00,865 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:35:00,979 - INFO -  * Restarting with stat
+2024-09-02 18:35:02,492 - WARNING -  * Debugger is active!
+2024-09-02 18:35:02,502 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:35:16,392 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:35:16,506 - INFO -  * Restarting with stat
+2024-09-02 18:35:18,145 - WARNING -  * Debugger is active!
+2024-09-02 18:35:18,156 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:35:18,383 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:35:18,512 - INFO -  * Restarting with stat
+2024-09-02 18:35:20,218 - WARNING -  * Debugger is active!
+2024-09-02 18:35:20,231 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:35:25,237 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 18:35:25,237 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 18:35:25,237 - INFO -  * Restarting with stat
+2024-09-02 18:35:27,787 - WARNING -  * Debugger is active!
+2024-09-02 18:35:27,797 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:35:27,938 - INFO - Accessing input form endpoint.
+2024-09-02 18:35:27,940 - INFO - Reading datafile.
+2024-09-02 18:35:27,947 - INFO - Datafile read succeeded.
+2024-09-02 18:35:27,967 - INFO - 127.0.0.1 - - [02/Sep/2024 18:35:27] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:35:28,108 - INFO - 127.0.0.1 - - [02/Sep/2024 18:35:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:35:54,669 - INFO - Accessing input form endpoint.
+2024-09-02 18:35:54,669 - INFO - Reading datafile.
+2024-09-02 18:35:54,673 - INFO - Datafile read succeeded.
+2024-09-02 18:35:54,673 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:35:54,673 - INFO - Reading form data.
+2024-09-02 18:35:54,673 - INFO - Form data read successful.
+2024-09-02 18:35:54,673 - INFO - Processing data.
+2024-09-02 18:35:54,677 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 18:35:54,678 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:35:54,682 - INFO - 127.0.0.1 - - [02/Sep/2024 18:35:54] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 18:35:54,694 - INFO - Accessing the report endpoint.
+2024-09-02 18:35:54,703 - INFO - 127.0.0.1 - - [02/Sep/2024 18:35:54] "GET /report HTTP/1.1" 200 -
+2024-09-02 18:35:54,755 - INFO - 127.0.0.1 - - [02/Sep/2024 18:35:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:37:24,144 - INFO - Accessing input form endpoint.
+2024-09-02 18:37:24,144 - INFO - Reading datafile.
+2024-09-02 18:37:24,152 - INFO - Datafile read succeeded.
+2024-09-02 18:37:24,152 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:37:24,152 - INFO - Reading form data.
+2024-09-02 18:37:24,152 - INFO - Form data read successful.
+2024-09-02 18:37:24,152 - INFO - Processing data.
+2024-09-02 18:37:24,157 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 18:37:24,157 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:37:24,163 - INFO - 127.0.0.1 - - [02/Sep/2024 18:37:24] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 18:37:24,175 - INFO - Accessing the report endpoint.
+2024-09-02 18:37:24,182 - INFO - 127.0.0.1 - - [02/Sep/2024 18:37:24] "GET /report HTTP/1.1" 200 -
+2024-09-02 18:37:24,227 - INFO - 127.0.0.1 - - [02/Sep/2024 18:37:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

@@ -21,7 +21,7 @@ def missingValues(df , thresh_dict):
     return results
 
 # sample
-# [ID, Name, Age, Gender, Email, Join_Date, Last_Login]
+# ["ID", "Name", "Age", "Gender", "Email", "Join_Date", "Last_Login"]
 def duplicateValues(df , columns):
     logger.info("Accessed duplicateValues task inside pre-processing framework.")
     
