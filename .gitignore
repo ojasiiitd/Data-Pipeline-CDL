@@ -1,4 +1,5 @@
 cdlenv/
 __pycache__/
 cdl_pipeline/__pycache__/
+pipeline_tasks/__pycache__/
 cdl_pipeline/app.log
