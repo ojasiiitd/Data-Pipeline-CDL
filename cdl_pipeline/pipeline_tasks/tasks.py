@@ -16,7 +16,7 @@ def missingValues(df , thresh_dict):
         missing_values = df[col].isnull().sum()
         missing_percentage = (missing_values / total_values) * 100
         
-        results[col] = "False" if missing_percentage > thresh else "True" 
+        results[col] = "There\'s more missing data than the threshold. Data in this column is not suitable for use." if missing_percentage > thresh else "Less missing data than the threshold. You may use this column!" 
 
     return results
 
@@ -48,7 +48,7 @@ def duplicateValues(df , columns):
     
     results['column_duplicates'] = column_duplicates
 
-    print(results)
+    # print(results)
 
     return results
 
@@ -68,6 +68,6 @@ def get_duplicateValues_report(result):
 
         format_report.append((elt[0] , desc))
 
-    print(format_report)
+    # print(format_report)
 
     return format_report

@@ -89,14 +89,14 @@ def report():
     for_report = []
 
     for i,ops in enumerate(reportlist):
-        for_report.append([ops[0] , lib_map[ops[0]](ops[1])])
+        for_report.append(lib_map[ops[0]](ops[1]))
 
     html_txt = {
         'missing_vals': 'Missing Values Processing',
         'dup_vals': 'Duplicate Values Processing',
     }
 
-    # print(for_report)
+    print(for_report[1])
 
     return render_template('report.html',
                            report_1 = report_1,

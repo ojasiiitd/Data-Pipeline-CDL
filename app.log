@@ -2552,3 +2552,391 @@
 2024-09-03 15:22:05,846 - INFO -  * Restarting with stat
 2024-09-03 15:22:08,135 - WARNING -  * Debugger is active!
 2024-09-03 15:22:08,152 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 16:20:22,175 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-03 16:20:22,175 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-03 16:20:22,178 - INFO -  * Restarting with stat
+2024-09-03 16:20:23,973 - WARNING -  * Debugger is active!
+2024-09-03 16:20:23,983 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 16:20:25,572 - INFO - Accessing input form endpoint.
+2024-09-03 16:20:25,574 - INFO - Reading datafile.
+2024-09-03 16:20:25,581 - INFO - Datafile read succeeded.
+2024-09-03 16:20:25,598 - INFO - 127.0.0.1 - - [03/Sep/2024 16:20:25] "GET /input HTTP/1.1" 200 -
+2024-09-03 16:20:25,677 - INFO - 127.0.0.1 - - [03/Sep/2024 16:20:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:44:11,377 - INFO - Accessing the report endpoint.
+2024-09-03 16:44:11,377 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:44:11,377 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:44:11,457 - INFO - 127.0.0.1 - - [03/Sep/2024 16:44:11] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:44:11,468 - INFO - 127.0.0.1 - - [03/Sep/2024 16:44:11] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:44:11,469 - INFO - 127.0.0.1 - - [03/Sep/2024 16:44:11] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:44:11,491 - INFO - 127.0.0.1 - - [03/Sep/2024 16:44:11] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1" 200 -
+2024-09-03 16:44:11,510 - INFO - 127.0.0.1 - - [03/Sep/2024 16:44:11] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:02,383 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:02,383 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:02,383 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:02,415 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:02] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:45:02,425 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:02] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:45:02,427 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:02] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:45:02,439 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:02] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1[0m" 304 -
+2024-09-03 16:45:02,458 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:02] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:03,321 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:03,322 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:03,322 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:03,344 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:45:03,355 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:45:03,356 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:45:03,367 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1[0m" 304 -
+2024-09-03 16:45:03,386 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:03,731 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:03,731 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:03,731 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:03,762 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:45:03,772 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:45:03,773 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:45:03,786 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1[0m" 304 -
+2024-09-03 16:45:03,804 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:03] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:09,879 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:09,879 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:09,879 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:09,920 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:09] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:45:09,931 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:09] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:45:09,933 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:09] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:45:09,945 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:09] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1[0m" 304 -
+2024-09-03 16:45:09,966 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:09] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:10,238 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:10,238 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:10,239 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:10,272 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:45:10,286 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:45:10,287 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:45:10,301 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1[0m" 304 -
+2024-09-03 16:45:10,325 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:10,412 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:10,412 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:10,413 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:10,449 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:45:10,464 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:45:10,465 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:45:10,480 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1[0m" 304 -
+2024-09-03 16:45:10,504 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:10] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:29,384 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:29,385 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:29,385 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:29,427 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:45:29,440 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:45:29,440 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:45:29,454 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1[0m" 304 -
+2024-09-03 16:45:29,476 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:29,893 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:29,893 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:29,893 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:29,918 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:45:29,931 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:45:29,933 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:45:29,950 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1[0m" 304 -
+2024-09-03 16:45:29,964 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:30,337 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:30,337 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:30,338 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:30,365 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:30] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:45:30,377 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:30] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:45:30,378 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:30] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:45:30,392 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:30] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=LeEHOWPBT3kMqoPCcbco HTTP/1.1[0m" 304 -
+2024-09-03 16:45:30,412 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:30] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:45:37,039 - INFO - Accessing the report endpoint.
+2024-09-03 16:45:37,039 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:45:37,039 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:45:37,053 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:37] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:45:37,064 - INFO - 127.0.0.1 - - [03/Sep/2024 16:45:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:46:49,085 - INFO - Accessing the report endpoint.
+2024-09-03 16:46:49,086 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:46:49,086 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:46:49,102 - INFO - 127.0.0.1 - - [03/Sep/2024 16:46:49] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:46:49,112 - INFO - 127.0.0.1 - - [03/Sep/2024 16:46:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:47:14,305 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 16:47:14,392 - INFO -  * Restarting with stat
+2024-09-03 16:47:16,562 - WARNING -  * Debugger is active!
+2024-09-03 16:47:16,575 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 16:47:16,720 - INFO - Accessing the report endpoint.
+2024-09-03 16:47:16,720 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:47:16,720 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:47:16,757 - INFO - 127.0.0.1 - - [03/Sep/2024 16:47:16] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:47:16,931 - INFO - 127.0.0.1 - - [03/Sep/2024 16:47:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:47:25,778 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 16:47:25,861 - INFO -  * Restarting with stat
+2024-09-03 16:47:27,027 - WARNING -  * Debugger is active!
+2024-09-03 16:47:27,037 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 16:47:28,114 - INFO - Accessing the report endpoint.
+2024-09-03 16:47:28,115 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:47:28,115 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:47:28,147 - INFO - 127.0.0.1 - - [03/Sep/2024 16:47:28] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:47:28,252 - INFO - 127.0.0.1 - - [03/Sep/2024 16:47:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:48:04,324 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 16:48:04,423 - INFO -  * Restarting with stat
+2024-09-03 16:48:05,697 - WARNING -  * Debugger is active!
+2024-09-03 16:48:05,705 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 16:48:06,283 - INFO - Accessing the report endpoint.
+2024-09-03 16:48:06,283 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:48:06,283 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:48:06,313 - INFO - 127.0.0.1 - - [03/Sep/2024 16:48:06] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:48:06,420 - INFO - 127.0.0.1 - - [03/Sep/2024 16:48:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:49:48,064 - INFO - Accessing the report endpoint.
+2024-09-03 16:49:48,064 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:49:48,064 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:49:48,080 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:48] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:49:48,090 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:49:48,613 - INFO - Accessing the report endpoint.
+2024-09-03 16:49:48,613 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:49:48,613 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:49:48,615 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:48] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:49:48,625 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:49:49,099 - INFO - Accessing the report endpoint.
+2024-09-03 16:49:49,100 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:49:49,100 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:49:49,102 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:49] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:49:49,112 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:49:49,431 - INFO - Accessing the report endpoint.
+2024-09-03 16:49:49,431 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:49:49,432 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:49:49,433 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:49] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:49:49,444 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:49:49,624 - INFO - Accessing the report endpoint.
+2024-09-03 16:49:49,624 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:49:49,624 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:49:49,625 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:49] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:49:49,636 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:49:49,799 - INFO - Accessing the report endpoint.
+2024-09-03 16:49:49,799 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:49:49,799 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:49:49,801 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:49] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:49:49,811 - INFO - 127.0.0.1 - - [03/Sep/2024 16:49:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:50:01,571 - INFO - Accessing the report endpoint.
+2024-09-03 16:50:01,571 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:50:01,573 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:50:01,586 - INFO - 127.0.0.1 - - [03/Sep/2024 16:50:01] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:50:01,596 - INFO - 127.0.0.1 - - [03/Sep/2024 16:50:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:50:58,617 - INFO - Accessing the report endpoint.
+2024-09-03 16:50:58,617 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:50:58,617 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:50:58,628 - INFO - 127.0.0.1 - - [03/Sep/2024 16:50:58] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:50:58,638 - INFO - 127.0.0.1 - - [03/Sep/2024 16:50:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:51:11,264 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 16:51:11,359 - INFO -  * Restarting with stat
+2024-09-03 16:51:12,777 - WARNING -  * Debugger is active!
+2024-09-03 16:51:12,791 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 16:51:16,813 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 16:51:17,968 - INFO -  * Restarting with stat
+2024-09-03 16:51:24,156 - WARNING -  * Debugger is active!
+2024-09-03 16:51:24,169 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 16:51:59,272 - INFO - Accessing input form endpoint.
+2024-09-03 16:51:59,276 - INFO - Reading datafile.
+2024-09-03 16:51:59,292 - INFO - Datafile read succeeded.
+2024-09-03 16:51:59,349 - INFO - 127.0.0.1 - - [03/Sep/2024 16:51:59] "GET /input HTTP/1.1" 200 -
+2024-09-03 16:51:59,748 - INFO - 127.0.0.1 - - [03/Sep/2024 16:51:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:52:05,038 - INFO - Accessing input form endpoint.
+2024-09-03 16:52:05,039 - INFO - Reading datafile.
+2024-09-03 16:52:05,044 - INFO - Datafile read succeeded.
+2024-09-03 16:52:05,050 - INFO - 127.0.0.1 - - [03/Sep/2024 16:52:05] "GET /input HTTP/1.1" 200 -
+2024-09-03 16:52:05,062 - INFO - 127.0.0.1 - - [03/Sep/2024 16:52:05] "GET /static/style.css HTTP/1.1" 200 -
+2024-09-03 16:52:05,986 - INFO - 127.0.0.1 - - [03/Sep/2024 16:52:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-03 16:52:28,091 - INFO - Accessing input form endpoint.
+2024-09-03 16:52:28,092 - INFO - Reading datafile.
+2024-09-03 16:52:28,095 - INFO - Datafile read succeeded.
+2024-09-03 16:52:28,095 - INFO - Form validation successful, POST request sent.
+2024-09-03 16:52:28,096 - INFO - Reading form data.
+2024-09-03 16:52:28,096 - INFO - Form data read successful.
+2024-09-03 16:52:28,097 - INFO - Processing data.
+2024-09-03 16:52:28,097 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 16:52:28,099 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-03 16:52:28,101 - INFO - 127.0.0.1 - - [03/Sep/2024 16:52:28] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-03 16:52:28,107 - INFO - Accessing the report endpoint.
+2024-09-03 16:52:28,107 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:52:28,107 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:52:28,122 - INFO - 127.0.0.1 - - [03/Sep/2024 16:52:28] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:52:28,146 - INFO - 127.0.0.1 - - [03/Sep/2024 16:52:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:53:19,073 - INFO - Accessing the report endpoint.
+2024-09-03 16:53:19,073 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:53:19,074 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:53:19,135 - INFO - 127.0.0.1 - - [03/Sep/2024 16:53:19] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:53:19,150 - INFO - 127.0.0.1 - - [03/Sep/2024 16:53:19] "GET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-03 16:53:19,156 - INFO - 127.0.0.1 - - [03/Sep/2024 16:53:19] "GET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-03 16:53:19,225 - INFO - 127.0.0.1 - - [03/Sep/2024 16:53:19] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=XEl0pkC6UUXDqd76jWgc HTTP/1.1" 200 -
+2024-09-03 16:53:19,255 - INFO - 127.0.0.1 - - [03/Sep/2024 16:53:19] "GET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-03 16:54:52,870 - INFO - Accessing the report endpoint.
+2024-09-03 16:54:52,872 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:54:52,872 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:54:52,914 - INFO - 127.0.0.1 - - [03/Sep/2024 16:54:52] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 16:54:52,926 - INFO - 127.0.0.1 - - [03/Sep/2024 16:54:52] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 16:54:52,929 - INFO - 127.0.0.1 - - [03/Sep/2024 16:54:52] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 16:54:52,947 - INFO - 127.0.0.1 - - [03/Sep/2024 16:54:52] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=XEl0pkC6UUXDqd76jWgc HTTP/1.1[0m" 304 -
+2024-09-03 16:54:52,967 - INFO - 127.0.0.1 - - [03/Sep/2024 16:54:52] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 16:55:16,753 - INFO - Accessing the report endpoint.
+2024-09-03 16:55:16,753 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 16:55:16,753 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 16:55:16,781 - INFO - 127.0.0.1 - - [03/Sep/2024 16:55:16] "GET /report HTTP/1.1" 200 -
+2024-09-03 16:55:16,792 - INFO - 127.0.0.1 - - [03/Sep/2024 16:55:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:06:25,618 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 17:06:25,734 - INFO -  * Restarting with stat
+2024-09-03 17:06:27,405 - WARNING -  * Debugger is active!
+2024-09-03 17:06:27,416 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 17:06:34,495 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 17:06:34,606 - INFO -  * Restarting with stat
+2024-09-03 17:06:36,289 - WARNING -  * Debugger is active!
+2024-09-03 17:06:36,308 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 17:07:37,096 - INFO - Accessing the report endpoint.
+2024-09-03 17:07:37,097 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:07:37,097 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:07:37,116 - INFO - 127.0.0.1 - - [03/Sep/2024 17:07:37] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:07:37,209 - INFO - 127.0.0.1 - - [03/Sep/2024 17:07:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:07:42,061 - INFO - Accessing input form endpoint.
+2024-09-03 17:07:42,065 - INFO - Reading datafile.
+2024-09-03 17:07:42,075 - INFO - Datafile read succeeded.
+2024-09-03 17:07:42,091 - INFO - 127.0.0.1 - - [03/Sep/2024 17:07:42] "GET /input HTTP/1.1" 200 -
+2024-09-03 17:07:43,460 - INFO - Accessing input form endpoint.
+2024-09-03 17:07:43,461 - INFO - Reading datafile.
+2024-09-03 17:07:43,467 - INFO - Datafile read succeeded.
+2024-09-03 17:07:43,467 - INFO - Form validation successful, POST request sent.
+2024-09-03 17:07:43,468 - INFO - Reading form data.
+2024-09-03 17:07:43,468 - INFO - Form data read successful.
+2024-09-03 17:07:43,468 - INFO - Processing data.
+2024-09-03 17:07:43,468 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 17:07:43,469 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-03 17:07:43,472 - INFO - 127.0.0.1 - - [03/Sep/2024 17:07:43] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-03 17:07:43,480 - INFO - Accessing the report endpoint.
+2024-09-03 17:07:43,480 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:07:43,480 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:07:43,483 - INFO - 127.0.0.1 - - [03/Sep/2024 17:07:43] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:07:43,515 - INFO - 127.0.0.1 - - [03/Sep/2024 17:07:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:08:46,730 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 17:08:46,816 - INFO -  * Restarting with stat
+2024-09-03 17:08:48,408 - WARNING -  * Debugger is active!
+2024-09-03 17:08:48,427 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 17:09:14,114 - INFO - Accessing the report endpoint.
+2024-09-03 17:09:14,114 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:09:14,114 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:09:14,152 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:14] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 17:09:14,244 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:14] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 17:09:14,246 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:14] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:09:14,259 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:14] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=4i3vohn5H8igscG1dh7Q HTTP/1.1" 200 -
+2024-09-03 17:09:14,273 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:14] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 17:09:17,191 - INFO - Accessing input form endpoint.
+2024-09-03 17:09:17,193 - INFO - Reading datafile.
+2024-09-03 17:09:17,201 - INFO - Datafile read succeeded.
+2024-09-03 17:09:17,201 - INFO - Form validation successful, POST request sent.
+2024-09-03 17:09:17,201 - INFO - Reading form data.
+2024-09-03 17:09:17,202 - INFO - Form data read successful.
+2024-09-03 17:09:17,202 - INFO - Processing data.
+2024-09-03 17:09:17,202 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 17:09:17,203 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-03 17:09:17,205 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:17] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-03 17:09:17,209 - INFO - Accessing the report endpoint.
+2024-09-03 17:09:17,209 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:09:17,209 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:09:17,234 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:17] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 17:09:17,254 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:17] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:09:17,257 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:17] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 17:09:17,265 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:17] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=4i3vohn5H8igscG1dh7Q HTTP/1.1[0m" 304 -
+2024-09-03 17:09:34,415 - INFO - Accessing the report endpoint.
+2024-09-03 17:09:34,415 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:09:34,415 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:09:34,424 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:34] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:09:34,435 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:09:42,529 - INFO - Accessing the report endpoint.
+2024-09-03 17:09:42,529 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:09:42,529 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:09:42,541 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:42] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:09:42,554 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:09:56,816 - INFO - Accessing the report endpoint.
+2024-09-03 17:09:56,816 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:09:56,816 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:09:56,835 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:56] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:09:56,847 - INFO - 127.0.0.1 - - [03/Sep/2024 17:09:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:10:00,384 - INFO - Accessing homepage endpoint.
+2024-09-03 17:10:00,388 - INFO - 127.0.0.1 - - [03/Sep/2024 17:10:00] "GET / HTTP/1.1" 200 -
+2024-09-03 17:10:00,399 - INFO - 127.0.0.1 - - [03/Sep/2024 17:10:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:10:50,003 - INFO - Accessing homepage endpoint.
+2024-09-03 17:10:50,008 - INFO - 127.0.0.1 - - [03/Sep/2024 17:10:50] "GET / HTTP/1.1" 200 -
+2024-09-03 17:10:50,018 - INFO - 127.0.0.1 - - [03/Sep/2024 17:10:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:11:48,514 - INFO - Accessing homepage endpoint.
+2024-09-03 17:11:48,518 - INFO - 127.0.0.1 - - [03/Sep/2024 17:11:48] "GET / HTTP/1.1" 200 -
+2024-09-03 17:11:48,528 - INFO - 127.0.0.1 - - [03/Sep/2024 17:11:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:12:12,518 - INFO - Accessing homepage endpoint.
+2024-09-03 17:12:12,524 - INFO - 127.0.0.1 - - [03/Sep/2024 17:12:12] "GET / HTTP/1.1" 200 -
+2024-09-03 17:12:12,535 - INFO - 127.0.0.1 - - [03/Sep/2024 17:12:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:12:50,054 - INFO - Accessing homepage endpoint.
+2024-09-03 17:12:50,058 - INFO - 127.0.0.1 - - [03/Sep/2024 17:12:50] "GET / HTTP/1.1" 200 -
+2024-09-03 17:12:50,068 - INFO - 127.0.0.1 - - [03/Sep/2024 17:12:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:13:28,349 - INFO - Accessing homepage endpoint.
+2024-09-03 17:13:28,353 - INFO - 127.0.0.1 - - [03/Sep/2024 17:13:28] "GET / HTTP/1.1" 200 -
+2024-09-03 17:13:28,364 - INFO - 127.0.0.1 - - [03/Sep/2024 17:13:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:13:39,309 - INFO - Accessing homepage endpoint.
+2024-09-03 17:13:39,313 - INFO - 127.0.0.1 - - [03/Sep/2024 17:13:39] "GET / HTTP/1.1" 200 -
+2024-09-03 17:13:39,324 - INFO - 127.0.0.1 - - [03/Sep/2024 17:13:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:13:49,664 - INFO - Accessing homepage endpoint.
+2024-09-03 17:13:49,669 - INFO - 127.0.0.1 - - [03/Sep/2024 17:13:49] "GET / HTTP/1.1" 200 -
+2024-09-03 17:13:49,679 - INFO - 127.0.0.1 - - [03/Sep/2024 17:13:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:14:08,528 - INFO - Accessing homepage endpoint.
+2024-09-03 17:14:08,532 - INFO - 127.0.0.1 - - [03/Sep/2024 17:14:08] "GET / HTTP/1.1" 200 -
+2024-09-03 17:14:08,543 - INFO - 127.0.0.1 - - [03/Sep/2024 17:14:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:14:18,318 - INFO - Accessing homepage endpoint.
+2024-09-03 17:14:18,323 - INFO - 127.0.0.1 - - [03/Sep/2024 17:14:18] "GET / HTTP/1.1" 200 -
+2024-09-03 17:14:18,332 - INFO - 127.0.0.1 - - [03/Sep/2024 17:14:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:14:23,553 - INFO - Accessing homepage endpoint.
+2024-09-03 17:14:23,556 - INFO - 127.0.0.1 - - [03/Sep/2024 17:14:23] "GET / HTTP/1.1" 200 -
+2024-09-03 17:14:23,565 - INFO - 127.0.0.1 - - [03/Sep/2024 17:14:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:14:26,431 - INFO - Accessing homepage endpoint.
+2024-09-03 17:14:26,435 - INFO - 127.0.0.1 - - [03/Sep/2024 17:14:26] "GET / HTTP/1.1" 200 -
+2024-09-03 17:14:26,444 - INFO - 127.0.0.1 - - [03/Sep/2024 17:14:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:15:15,131 - INFO - Accessing homepage endpoint.
+2024-09-03 17:15:15,137 - INFO - 127.0.0.1 - - [03/Sep/2024 17:15:15] "GET / HTTP/1.1" 200 -
+2024-09-03 17:15:15,149 - INFO - 127.0.0.1 - - [03/Sep/2024 17:15:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:15:17,073 - INFO - Accessing input form endpoint.
+2024-09-03 17:15:17,074 - INFO - Reading datafile.
+2024-09-03 17:15:17,078 - INFO - Datafile read succeeded.
+2024-09-03 17:15:17,094 - INFO - 127.0.0.1 - - [03/Sep/2024 17:15:17] "GET /input HTTP/1.1" 200 -
+2024-09-03 17:15:17,104 - INFO - 127.0.0.1 - - [03/Sep/2024 17:15:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:16:06,073 - INFO - Accessing input form endpoint.
+2024-09-03 17:16:06,074 - INFO - Reading datafile.
+2024-09-03 17:16:06,080 - INFO - Datafile read succeeded.
+2024-09-03 17:16:06,081 - INFO - Form validation successful, POST request sent.
+2024-09-03 17:16:06,081 - INFO - Reading form data.
+2024-09-03 17:16:06,082 - INFO - Form data read successful.
+2024-09-03 17:16:06,082 - INFO - Processing data.
+2024-09-03 17:16:06,082 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-03 17:16:06,085 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 17:16:06,089 - INFO - 127.0.0.1 - - [03/Sep/2024 17:16:06] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-03 17:16:06,095 - INFO - Accessing the report endpoint.
+2024-09-03 17:16:06,096 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:16:06,096 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:16:06,098 - INFO - 127.0.0.1 - - [03/Sep/2024 17:16:06] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:16:06,119 - INFO - 127.0.0.1 - - [03/Sep/2024 17:16:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:16:53,629 - INFO - Accessing the report endpoint.
+2024-09-03 17:16:53,629 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:16:53,630 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:16:53,638 - INFO - 127.0.0.1 - - [03/Sep/2024 17:16:53] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:16:53,652 - INFO - 127.0.0.1 - - [03/Sep/2024 17:16:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:17:03,917 - INFO - Accessing the report endpoint.
+2024-09-03 17:17:03,917 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:17:03,917 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:17:03,925 - INFO - 127.0.0.1 - - [03/Sep/2024 17:17:03] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:17:03,936 - INFO - 127.0.0.1 - - [03/Sep/2024 17:17:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:17:14,869 - INFO - Accessing the report endpoint.
+2024-09-03 17:17:14,869 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 17:17:14,869 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:17:14,883 - INFO - 127.0.0.1 - - [03/Sep/2024 17:17:14] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:17:14,895 - INFO - 127.0.0.1 - - [03/Sep/2024 17:17:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 17:17:26,193 - INFO - Accessing input form endpoint.
+2024-09-03 17:17:26,193 - INFO - Reading datafile.
+2024-09-03 17:17:26,199 - INFO - Datafile read succeeded.
+2024-09-03 17:17:26,200 - INFO - Form validation successful, POST request sent.
+2024-09-03 17:17:26,200 - INFO - Reading form data.
+2024-09-03 17:17:26,200 - INFO - Form data read successful.
+2024-09-03 17:17:26,200 - INFO - Processing data.
+2024-09-03 17:17:26,200 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 17:17:26,202 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 17:17:26,204 - INFO - 127.0.0.1 - - [03/Sep/2024 17:17:26] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-03 17:17:26,209 - INFO - Accessing the report endpoint.
+2024-09-03 17:17:26,209 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:17:26,209 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 17:17:26,211 - INFO - 127.0.0.1 - - [03/Sep/2024 17:17:26] "GET /report HTTP/1.1" 200 -
+2024-09-03 17:17:26,237 - INFO - 127.0.0.1 - - [03/Sep/2024 17:17:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
