@@ -54,20 +54,56 @@ def inputData():
                     (form.getOp2.data , cols_2)
                     ]
         
-        print(tasklist)
-
         for i,ops in enumerate(tasklist):
-            session[f'report_op{i}'] = lib_map[ops[0]](df_raw , ops[1])
+            session[f'report_op{i+1}'] = lib_map[ops[0]](df_raw , ops[1])
 
         return redirect(url_for('report'))
 
     return render_template('input.html',
                            df_html = df_sample.to_html(classes='table table-striped table-bordered'),
-                           form = form)
+                           form = form
+                           )
 
 @app.route("/report")
 # generates the report and uses the library created by us
 def report():
     logger.info("Accessing the report endpoint.")
-    print(session.get('report_op1'))
-    return render_template('report.html')
+    report_1 = {
+        'task': session.get('op1'),
+        'cols': session.get('col_op1'),
+        'result': session.get('report_op1')
+    }
+    report_2 = {
+        'task': session.get('op2'),
+        'cols': session.get('col_op2'),
+        'result': session.get('report_op2')
+    }
+
+    op1_report = (report_1['task'] + "_report" , report_1['result'])
+    op2_report = (report_2['task'] + "_report" , report_2['result'])
+
+    reportlist = [op1_report,
+                op2_report
+                ]
+    
+    for_report = []
+
+    for i,ops in enumerate(reportlist):
+        for_report.append([ops[0] , lib_map[ops[0]](ops[1])])
+
+    html_txt = {
+        'missing_vals': 'Missing Values Processing',
+        'dup_vals': 'Duplicate Values Processing',
+    }
+
+    # print(for_report)
+
+    return render_template('report.html',
+                           report_1 = report_1,
+                           report_2 = report_2,
+
+                           task1 = html_txt[report_1['task']],
+                           task2 = html_txt[report_2['task']],
+
+                           report_content = for_report
+                           )

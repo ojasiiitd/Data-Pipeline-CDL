@@ -20,8 +20,15 @@ def missingValues(df , thresh_dict):
 
     return results
 
+def get_missingVals_report(result):
+    logger.info("Accessed get_missingVals_report task inside pre-processing framework.")
+
+    formatted = [(key, value) for key, value in result.items()]
+
+    return formatted
+
 # sample
-# ["ID", "Name", "Age", "Gender", "Email", "Join_Date", "Last_Login"]
+# ["ID", "Name", "Email"]
 def duplicateValues(df , columns):
     logger.info("Accessed duplicateValues task inside pre-processing framework.")
     
@@ -41,4 +48,26 @@ def duplicateValues(df , columns):
     
     results['column_duplicates'] = column_duplicates
 
+    print(results)
+
     return results
+
+def get_duplicateValues_report(result):
+    logger.info("Accessed get_duplicateValues_report task inside pre-processing framework.")
+
+    formatted = [(key, value) for key, value in result.items()]
+
+    format_report = []
+    for i,elt in enumerate(formatted):
+        desc = ""
+        if i == 0:
+            for x in elt[1]:
+                desc += "'" + str(x) + "' has " + str(elt[1][x]) + " duplicates.\n"
+        else:
+            desc = f"There are {str(elt[1])} duplicate rows in total."
+
+        format_report.append((elt[0] , desc))
+
+    print(format_report)
+
+    return format_report

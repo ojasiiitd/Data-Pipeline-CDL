@@ -1544,3 +1544,1011 @@
 2024-09-02 18:37:24,175 - INFO - Accessing the report endpoint.
 2024-09-02 18:37:24,182 - INFO - 127.0.0.1 - - [02/Sep/2024 18:37:24] "GET /report HTTP/1.1" 200 -
 2024-09-02 18:37:24,227 - INFO - 127.0.0.1 - - [02/Sep/2024 18:37:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:48:06,275 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 18:48:06,275 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 18:48:06,278 - INFO -  * Restarting with stat
+2024-09-02 18:48:07,843 - WARNING -  * Debugger is active!
+2024-09-02 18:48:07,854 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:49:04,423 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:49:04,530 - INFO -  * Restarting with stat
+2024-09-02 18:53:19,267 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 18:53:19,267 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 18:53:19,273 - INFO -  * Restarting with stat
+2024-09-02 18:53:21,443 - WARNING -  * Debugger is active!
+2024-09-02 18:53:21,462 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:53:22,050 - INFO - Accessing input form endpoint.
+2024-09-02 18:53:22,053 - INFO - Reading datafile.
+2024-09-02 18:53:22,056 - INFO - Datafile read succeeded.
+2024-09-02 18:53:22,073 - INFO - 127.0.0.1 - - [02/Sep/2024 18:53:22] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:53:22,197 - INFO - 127.0.0.1 - - [02/Sep/2024 18:53:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:53:45,039 - INFO - Accessing input form endpoint.
+2024-09-02 18:53:45,039 - INFO - Reading datafile.
+2024-09-02 18:53:45,043 - INFO - Datafile read succeeded.
+2024-09-02 18:53:45,043 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:53:45,043 - INFO - Reading form data.
+2024-09-02 18:53:45,043 - INFO - Form data read successful.
+2024-09-02 18:53:45,043 - INFO - Processing data.
+2024-09-02 18:53:45,046 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:53:45,049 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 18:53:45,049 - INFO - 127.0.0.1 - - [02/Sep/2024 18:53:45] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 18:53:45,064 - INFO - Accessing the report endpoint.
+2024-09-02 18:53:45,123 - INFO - 127.0.0.1 - - [02/Sep/2024 18:53:45] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 18:53:45,263 - INFO - 127.0.0.1 - - [02/Sep/2024 18:53:45] "GET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-02 18:53:45,343 - INFO - 127.0.0.1 - - [02/Sep/2024 18:53:45] "GET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-02 18:53:45,435 - INFO - 127.0.0.1 - - [02/Sep/2024 18:53:45] "GET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-02 18:53:45,456 - INFO - 127.0.0.1 - - [02/Sep/2024 18:53:45] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=acKlPgQKmiKoFUkaPvzT HTTP/1.1" 200 -
+2024-09-02 18:54:01,866 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:54:01,973 - INFO -  * Restarting with stat
+2024-09-02 18:54:03,564 - WARNING -  * Debugger is active!
+2024-09-02 18:54:03,580 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:54:20,845 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:54:20,968 - INFO -  * Restarting with stat
+2024-09-02 18:54:22,762 - WARNING -  * Debugger is active!
+2024-09-02 18:54:22,784 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:54:35,582 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:54:35,703 - INFO -  * Restarting with stat
+2024-09-02 18:54:37,663 - WARNING -  * Debugger is active!
+2024-09-02 18:54:37,679 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:54:38,476 - INFO - Accessing the report endpoint.
+2024-09-02 18:54:38,534 - INFO - 127.0.0.1 - - [02/Sep/2024 18:54:38] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 18:54:38,683 - INFO - 127.0.0.1 - - [02/Sep/2024 18:54:38] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 18:54:38,683 - INFO - 127.0.0.1 - - [02/Sep/2024 18:54:38] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:54:38,697 - INFO - 127.0.0.1 - - [02/Sep/2024 18:54:38] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=FQiH2rVneeMN0SSnHvZT HTTP/1.1" 200 -
+2024-09-02 18:55:05,071 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:55:05,203 - INFO -  * Restarting with stat
+2024-09-02 18:55:07,232 - WARNING -  * Debugger is active!
+2024-09-02 18:55:07,243 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:55:24,515 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:55:24,642 - INFO -  * Restarting with stat
+2024-09-02 18:55:26,545 - WARNING -  * Debugger is active!
+2024-09-02 18:55:26,557 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 18:55:26,732 - INFO - Accessing the report endpoint.
+2024-09-02 18:55:26,749 - INFO - 127.0.0.1 - - [02/Sep/2024 18:55:26] "GET /report HTTP/1.1" 200 -
+2024-09-02 18:55:26,873 - INFO - 127.0.0.1 - - [02/Sep/2024 18:55:26] "GET /static/style.css HTTP/1.1" 200 -
+2024-09-02 18:55:34,633 - INFO - Accessing input form endpoint.
+2024-09-02 18:55:34,639 - INFO - Reading datafile.
+2024-09-02 18:55:34,656 - INFO - Datafile read succeeded.
+2024-09-02 18:55:34,688 - INFO - 127.0.0.1 - - [02/Sep/2024 18:55:34] "GET /input HTTP/1.1" 200 -
+2024-09-02 18:55:34,737 - INFO - 127.0.0.1 - - [02/Sep/2024 18:55:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:58:43,110 - INFO - Accessing input form endpoint.
+2024-09-02 18:58:43,113 - INFO - Reading datafile.
+2024-09-02 18:58:43,123 - INFO - Datafile read succeeded.
+2024-09-02 18:58:43,123 - INFO - Form validation successful, POST request sent.
+2024-09-02 18:58:43,123 - INFO - Reading form data.
+2024-09-02 18:58:43,123 - INFO - Form data read successful.
+2024-09-02 18:58:43,123 - INFO - Processing data.
+2024-09-02 18:58:43,123 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 18:58:43,126 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 18:58:43,132 - INFO - 127.0.0.1 - - [02/Sep/2024 18:58:43] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 18:58:43,143 - INFO - Accessing the report endpoint.
+2024-09-02 18:58:43,151 - INFO - 127.0.0.1 - - [02/Sep/2024 18:58:43] "GET /report HTTP/1.1" 200 -
+2024-09-02 18:58:43,193 - INFO - 127.0.0.1 - - [02/Sep/2024 18:58:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 18:59:43,038 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 18:59:43,267 - INFO -  * Restarting with stat
+2024-09-02 19:02:03,029 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 19:02:03,029 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 19:02:03,033 - INFO -  * Restarting with stat
+2024-09-02 19:02:04,743 - WARNING -  * Debugger is active!
+2024-09-02 19:02:04,755 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 19:02:04,887 - INFO - Accessing input form endpoint.
+2024-09-02 19:02:04,887 - INFO - Reading datafile.
+2024-09-02 19:02:04,895 - INFO - Datafile read succeeded.
+2024-09-02 19:02:04,919 - INFO - 127.0.0.1 - - [02/Sep/2024 19:02:04] "GET /input HTTP/1.1" 200 -
+2024-09-02 19:02:05,033 - INFO - 127.0.0.1 - - [02/Sep/2024 19:02:05] "GET /static/style.css HTTP/1.1" 200 -
+2024-09-02 19:02:45,866 - INFO - Accessing input form endpoint.
+2024-09-02 19:02:45,875 - INFO - Reading datafile.
+2024-09-02 19:02:45,883 - INFO - Datafile read succeeded.
+2024-09-02 19:02:45,883 - INFO - Form validation successful, POST request sent.
+2024-09-02 19:02:45,883 - INFO - Reading form data.
+2024-09-02 19:02:45,885 - INFO - Form data read successful.
+2024-09-02 19:02:45,885 - INFO - Processing data.
+2024-09-02 19:02:45,885 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 19:02:45,890 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 19:02:45,893 - INFO - 127.0.0.1 - - [02/Sep/2024 19:02:45] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 19:02:45,899 - INFO - Accessing the report endpoint.
+2024-09-02 19:02:45,913 - INFO - 127.0.0.1 - - [02/Sep/2024 19:02:45] "GET /report HTTP/1.1" 200 -
+2024-09-02 19:02:45,954 - INFO - 127.0.0.1 - - [02/Sep/2024 19:02:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 20:47:26,986 - INFO - Accessing input form endpoint.
+2024-09-02 20:47:26,986 - INFO - Reading datafile.
+2024-09-02 20:47:26,990 - INFO - Datafile read succeeded.
+2024-09-02 20:47:26,998 - INFO - 127.0.0.1 - - [02/Sep/2024 20:47:26] "GET /input HTTP/1.1" 200 -
+2024-09-02 20:47:27,080 - INFO - 127.0.0.1 - - [02/Sep/2024 20:47:27] "GET /static/style.css HTTP/1.1" 200 -
+2024-09-02 20:47:27,823 - INFO - 127.0.0.1 - - [02/Sep/2024 20:47:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-02 20:47:53,828 - INFO - Accessing input form endpoint.
+2024-09-02 20:47:53,830 - INFO - Reading datafile.
+2024-09-02 20:47:53,837 - INFO - Datafile read succeeded.
+2024-09-02 20:47:53,838 - INFO - Form validation successful, POST request sent.
+2024-09-02 20:47:53,839 - INFO - Reading form data.
+2024-09-02 20:47:53,839 - INFO - Form data read successful.
+2024-09-02 20:47:53,839 - INFO - Processing data.
+2024-09-02 20:47:53,839 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 20:47:53,841 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 20:47:53,845 - INFO - 127.0.0.1 - - [02/Sep/2024 20:47:53] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 20:47:53,848 - INFO - Accessing the report endpoint.
+2024-09-02 20:47:53,853 - INFO - 127.0.0.1 - - [02/Sep/2024 20:47:53] "GET /report HTTP/1.1" 200 -
+2024-09-02 20:47:53,879 - INFO - 127.0.0.1 - - [02/Sep/2024 20:47:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 20:48:09,200 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:48:09,410 - INFO -  * Restarting with stat
+2024-09-02 20:48:12,108 - WARNING -  * Debugger is active!
+2024-09-02 20:48:12,125 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:48:13,568 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:48:13,703 - INFO -  * Restarting with stat
+2024-09-02 20:48:15,958 - WARNING -  * Debugger is active!
+2024-09-02 20:48:15,968 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:48:27,952 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:48:28,098 - INFO -  * Restarting with stat
+2024-09-02 20:48:29,801 - WARNING -  * Debugger is active!
+2024-09-02 20:48:29,818 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:48:30,370 - INFO - Accessing input form endpoint.
+2024-09-02 20:48:30,370 - INFO - Reading datafile.
+2024-09-02 20:48:30,388 - INFO - Datafile read succeeded.
+2024-09-02 20:48:30,410 - INFO - 127.0.0.1 - - [02/Sep/2024 20:48:30] "GET /input HTTP/1.1" 200 -
+2024-09-02 20:48:30,509 - INFO - 127.0.0.1 - - [02/Sep/2024 20:48:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 20:48:34,354 - INFO - Accessing the report endpoint.
+2024-09-02 20:48:34,358 - INFO - 127.0.0.1 - - [02/Sep/2024 20:48:34] "GET /report HTTP/1.1" 200 -
+2024-09-02 20:48:34,370 - INFO - 127.0.0.1 - - [02/Sep/2024 20:48:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 20:48:38,330 - INFO - Accessing input form endpoint.
+2024-09-02 20:48:38,332 - INFO - Reading datafile.
+2024-09-02 20:48:38,341 - INFO - Datafile read succeeded.
+2024-09-02 20:48:38,341 - INFO - Form validation successful, POST request sent.
+2024-09-02 20:48:38,341 - INFO - Reading form data.
+2024-09-02 20:48:38,341 - INFO - Form data read successful.
+2024-09-02 20:48:38,341 - INFO - Processing data.
+2024-09-02 20:48:38,341 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 20:48:38,341 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 20:48:38,349 - INFO - 127.0.0.1 - - [02/Sep/2024 20:48:38] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 20:48:38,356 - INFO - Accessing the report endpoint.
+2024-09-02 20:48:38,358 - INFO - 127.0.0.1 - - [02/Sep/2024 20:48:38] "GET /report HTTP/1.1" 200 -
+2024-09-02 20:48:38,383 - INFO - 127.0.0.1 - - [02/Sep/2024 20:48:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 20:49:51,518 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:49:51,638 - INFO -  * Restarting with stat
+2024-09-02 20:49:53,668 - WARNING -  * Debugger is active!
+2024-09-02 20:49:53,685 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:49:59,538 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:49:59,660 - INFO -  * Restarting with stat
+2024-09-02 20:50:01,595 - WARNING -  * Debugger is active!
+2024-09-02 20:50:01,611 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:50:07,870 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:50:08,001 - INFO -  * Restarting with stat
+2024-09-02 20:50:09,688 - WARNING -  * Debugger is active!
+2024-09-02 20:50:09,698 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:50:29,638 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:50:29,788 - INFO -  * Restarting with stat
+2024-09-02 20:50:31,501 - WARNING -  * Debugger is active!
+2024-09-02 20:50:31,518 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:54:44,011 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:54:44,128 - INFO -  * Restarting with stat
+2024-09-02 20:54:46,066 - WARNING -  * Debugger is active!
+2024-09-02 20:54:46,082 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:54:53,313 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:54:53,446 - INFO -  * Restarting with stat
+2024-09-02 20:54:55,319 - WARNING -  * Debugger is active!
+2024-09-02 20:54:55,338 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:55:19,388 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:55:19,501 - INFO -  * Restarting with stat
+2024-09-02 20:55:21,358 - WARNING -  * Debugger is active!
+2024-09-02 20:55:21,369 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:55:22,853 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:55:22,966 - INFO -  * Restarting with stat
+2024-09-02 20:55:24,578 - WARNING -  * Debugger is active!
+2024-09-02 20:55:24,588 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:55:28,241 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:55:28,358 - INFO -  * Restarting with stat
+2024-09-02 20:55:30,121 - WARNING -  * Debugger is active!
+2024-09-02 20:55:30,128 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:55:32,759 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 20:55:32,898 - INFO -  * Restarting with stat
+2024-09-02 20:55:34,709 - WARNING -  * Debugger is active!
+2024-09-02 20:55:34,718 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:55:53,401 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 20:55:53,515 - INFO -  * Restarting with stat
+2024-09-02 20:55:55,406 - WARNING -  * Debugger is active!
+2024-09-02 20:55:55,418 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:55:56,863 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 20:55:56,981 - INFO -  * Restarting with stat
+2024-09-02 20:55:58,818 - WARNING -  * Debugger is active!
+2024-09-02 20:55:58,831 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:57:08,423 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 20:57:08,573 - INFO -  * Restarting with stat
+2024-09-02 20:57:10,374 - WARNING -  * Debugger is active!
+2024-09-02 20:57:10,385 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:57:27,848 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:57:27,958 - INFO -  * Restarting with stat
+2024-09-02 20:57:29,588 - WARNING -  * Debugger is active!
+2024-09-02 20:57:29,604 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 20:57:37,998 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 20:57:38,148 - INFO -  * Restarting with stat
+2024-09-02 20:57:40,188 - WARNING -  * Debugger is active!
+2024-09-02 20:57:40,201 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:00:19,368 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\__init__.py', reloading
+2024-09-02 21:00:19,513 - INFO -  * Restarting with stat
+2024-09-02 21:00:21,391 - WARNING -  * Debugger is active!
+2024-09-02 21:00:21,400 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:00:36,710 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 21:00:36,839 - INFO -  * Restarting with stat
+2024-09-02 21:08:21,620 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 21:08:21,620 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 21:08:21,620 - INFO -  * Restarting with stat
+2024-09-02 21:08:23,498 - WARNING -  * Debugger is active!
+2024-09-02 21:08:23,510 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:08:23,708 - INFO - Accessing input form endpoint.
+2024-09-02 21:08:23,708 - INFO - Reading datafile.
+2024-09-02 21:08:23,718 - INFO - Datafile read succeeded.
+2024-09-02 21:08:23,731 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:23] "GET /input HTTP/1.1" 200 -
+2024-09-02 21:08:25,638 - INFO - Accessing the report endpoint.
+2024-09-02 21:08:25,723 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:25] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:08:25,882 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:25] "GET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-02 21:08:25,887 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:25] "GET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-02 21:08:25,947 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:25] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=M78CSdYkIG3zWyvAUGjv HTTP/1.1" 200 -
+2024-09-02 21:08:25,961 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:25] "GET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-02 21:08:27,791 - INFO - Accessing input form endpoint.
+2024-09-02 21:08:27,791 - INFO - Reading datafile.
+2024-09-02 21:08:27,795 - INFO - Datafile read succeeded.
+2024-09-02 21:08:27,798 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:27] "GET /input HTTP/1.1" 200 -
+2024-09-02 21:08:27,829 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:08:58,240 - INFO - Accessing input form endpoint.
+2024-09-02 21:08:58,243 - INFO - Reading datafile.
+2024-09-02 21:08:58,252 - INFO - Datafile read succeeded.
+2024-09-02 21:08:58,254 - INFO - Form validation successful, POST request sent.
+2024-09-02 21:08:58,254 - INFO - Reading form data.
+2024-09-02 21:08:58,254 - INFO - Form data read successful.
+2024-09-02 21:08:58,254 - INFO - Processing data.
+2024-09-02 21:08:58,254 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 21:08:58,260 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:08:58,260 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:58] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 21:08:58,271 - INFO - Accessing the report endpoint.
+2024-09-02 21:08:58,328 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:58] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:08:58,363 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:58] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:08:58,368 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:58] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 21:08:58,380 - INFO - 127.0.0.1 - - [02/Sep/2024 21:08:58] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=M78CSdYkIG3zWyvAUGjv HTTP/1.1[0m" 304 -
+2024-09-02 21:09:12,108 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 21:09:12,278 - INFO -  * Restarting with stat
+2024-09-02 21:09:14,518 - WARNING -  * Debugger is active!
+2024-09-02 21:09:14,534 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:09:15,348 - INFO - Accessing the report endpoint.
+2024-09-02 21:09:15,378 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:15] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:09:15,524 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:15] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:09:15,532 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:15] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 21:09:15,558 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:15] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=vSr3BTfEAO78wnvPqg2s HTTP/1.1" 200 -
+2024-09-02 21:09:15,589 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:15] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-02 21:09:17,588 - INFO - Accessing input form endpoint.
+2024-09-02 21:09:17,594 - INFO - Reading datafile.
+2024-09-02 21:09:17,608 - INFO - Datafile read succeeded.
+2024-09-02 21:09:17,608 - INFO - Form validation successful, POST request sent.
+2024-09-02 21:09:17,608 - INFO - Reading form data.
+2024-09-02 21:09:17,608 - INFO - Form data read successful.
+2024-09-02 21:09:17,608 - INFO - Processing data.
+2024-09-02 21:09:17,610 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 21:09:17,610 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:09:17,610 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:17] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 21:09:17,618 - INFO - Accessing the report endpoint.
+2024-09-02 21:09:17,638 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:17] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:09:17,660 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:17] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:09:17,660 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:17] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 21:09:17,678 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:17] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=vSr3BTfEAO78wnvPqg2s HTTP/1.1[0m" 304 -
+2024-09-02 21:09:22,171 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 21:09:22,434 - INFO -  * Restarting with stat
+2024-09-02 21:09:24,588 - WARNING -  * Debugger is active!
+2024-09-02 21:09:24,603 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:09:28,679 - INFO - Accessing input form endpoint.
+2024-09-02 21:09:28,686 - INFO - Reading datafile.
+2024-09-02 21:09:28,698 - INFO - Datafile read succeeded.
+2024-09-02 21:09:28,698 - INFO - Form validation successful, POST request sent.
+2024-09-02 21:09:28,698 - INFO - Reading form data.
+2024-09-02 21:09:28,698 - INFO - Form data read successful.
+2024-09-02 21:09:28,698 - INFO - Processing data.
+2024-09-02 21:09:28,698 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 21:09:28,703 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:09:28,703 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:28] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 21:09:28,728 - INFO - Accessing the report endpoint.
+2024-09-02 21:09:28,758 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:28] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:09:29,008 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:09:29,020 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:29] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 21:09:29,038 - INFO - 127.0.0.1 - - [02/Sep/2024 21:09:29] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=bN8C1nlYvPnW4OK7DY8b HTTP/1.1" 200 -
+2024-09-02 21:09:38,992 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 21:09:39,139 - INFO -  * Restarting with stat
+2024-09-02 21:09:40,978 - WARNING -  * Debugger is active!
+2024-09-02 21:09:40,991 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:10:04,235 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 21:10:04,367 - INFO -  * Restarting with stat
+2024-09-02 21:10:06,211 - WARNING -  * Debugger is active!
+2024-09-02 21:10:06,228 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:10:11,270 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\__init__.py', reloading
+2024-09-02 21:10:11,411 - INFO -  * Restarting with stat
+2024-09-02 21:10:13,138 - WARNING -  * Debugger is active!
+2024-09-02 21:10:13,148 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:10:20,522 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 21:10:20,645 - INFO -  * Restarting with stat
+2024-09-02 21:10:22,520 - WARNING -  * Debugger is active!
+2024-09-02 21:10:22,537 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:10:35,468 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\__init__.py', reloading
+2024-09-02 21:10:35,598 - INFO -  * Restarting with stat
+2024-09-02 21:10:37,593 - WARNING -  * Debugger is active!
+2024-09-02 21:10:37,609 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:10:39,078 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\__init__.py', reloading
+2024-09-02 21:10:39,220 - INFO -  * Restarting with stat
+2024-09-02 21:10:40,943 - WARNING -  * Debugger is active!
+2024-09-02 21:10:40,960 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:10:41,721 - INFO - Accessing input form endpoint.
+2024-09-02 21:10:41,723 - INFO - Reading datafile.
+2024-09-02 21:10:41,731 - INFO - Datafile read succeeded.
+2024-09-02 21:10:41,758 - INFO - 127.0.0.1 - - [02/Sep/2024 21:10:41] "GET /input HTTP/1.1" 200 -
+2024-09-02 21:10:41,858 - INFO - 127.0.0.1 - - [02/Sep/2024 21:10:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:10:45,323 - INFO - Accessing input form endpoint.
+2024-09-02 21:10:45,328 - INFO - Reading datafile.
+2024-09-02 21:10:45,332 - INFO - Datafile read succeeded.
+2024-09-02 21:10:45,332 - INFO - Form validation successful, POST request sent.
+2024-09-02 21:10:45,335 - INFO - Reading form data.
+2024-09-02 21:10:45,335 - INFO - Form data read successful.
+2024-09-02 21:10:45,335 - INFO - Processing data.
+2024-09-02 21:10:45,335 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 21:10:45,339 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:10:45,339 - INFO - 127.0.0.1 - - [02/Sep/2024 21:10:45] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 21:10:45,356 - INFO - Accessing the report endpoint.
+2024-09-02 21:10:45,356 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:10:45,358 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:10:45,413 - INFO - 127.0.0.1 - - [02/Sep/2024 21:10:45] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:10:45,439 - INFO - 127.0.0.1 - - [02/Sep/2024 21:10:45] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:10:45,439 - INFO - 127.0.0.1 - - [02/Sep/2024 21:10:45] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 21:10:45,448 - INFO - 127.0.0.1 - - [02/Sep/2024 21:10:45] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=Q83cwF25WZAZFwAcLfFv HTTP/1.1" 200 -
+2024-09-02 21:10:53,938 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 21:10:54,059 - INFO -  * Restarting with stat
+2024-09-02 21:10:55,798 - WARNING -  * Debugger is active!
+2024-09-02 21:10:55,808 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:11:01,928 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 21:11:02,087 - INFO -  * Restarting with stat
+2024-09-02 21:11:03,948 - WARNING -  * Debugger is active!
+2024-09-02 21:11:03,963 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:11:04,161 - INFO - Accessing input form endpoint.
+2024-09-02 21:11:04,164 - INFO - Reading datafile.
+2024-09-02 21:11:04,178 - INFO - Datafile read succeeded.
+2024-09-02 21:11:04,202 - INFO - 127.0.0.1 - - [02/Sep/2024 21:11:04] "GET /input HTTP/1.1" 200 -
+2024-09-02 21:11:04,308 - INFO - 127.0.0.1 - - [02/Sep/2024 21:11:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:11:21,558 - INFO - Accessing input form endpoint.
+2024-09-02 21:11:21,558 - INFO - Reading datafile.
+2024-09-02 21:11:21,571 - INFO - Datafile read succeeded.
+2024-09-02 21:11:21,572 - INFO - Form validation successful, POST request sent.
+2024-09-02 21:11:21,572 - INFO - Reading form data.
+2024-09-02 21:11:21,572 - INFO - Form data read successful.
+2024-09-02 21:11:21,572 - INFO - Processing data.
+2024-09-02 21:11:21,572 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:11:21,576 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 21:11:21,578 - INFO - 127.0.0.1 - - [02/Sep/2024 21:11:21] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 21:11:21,591 - INFO - Accessing the report endpoint.
+2024-09-02 21:11:21,591 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:11:21,591 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:11:21,613 - INFO - 127.0.0.1 - - [02/Sep/2024 21:11:21] "GET /report HTTP/1.1" 200 -
+2024-09-02 21:11:21,653 - INFO - 127.0.0.1 - - [02/Sep/2024 21:11:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:12:49,637 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 21:12:49,780 - INFO -  * Restarting with stat
+2024-09-02 21:15:33,388 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 21:15:33,388 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 21:15:33,388 - INFO -  * Restarting with stat
+2024-09-02 21:15:35,353 - WARNING -  * Debugger is active!
+2024-09-02 21:15:35,368 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:15:35,529 - INFO - Accessing input form endpoint.
+2024-09-02 21:15:35,535 - INFO - Reading datafile.
+2024-09-02 21:15:35,543 - INFO - Datafile read succeeded.
+2024-09-02 21:15:35,569 - INFO - 127.0.0.1 - - [02/Sep/2024 21:15:35] "GET /input HTTP/1.1" 200 -
+2024-09-02 21:15:35,717 - INFO - 127.0.0.1 - - [02/Sep/2024 21:15:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:15:56,295 - INFO - Accessing input form endpoint.
+2024-09-02 21:15:56,298 - INFO - Reading datafile.
+2024-09-02 21:15:56,303 - INFO - Datafile read succeeded.
+2024-09-02 21:15:56,303 - INFO - Form validation successful, POST request sent.
+2024-09-02 21:15:56,308 - INFO - Reading form data.
+2024-09-02 21:15:56,308 - INFO - Form data read successful.
+2024-09-02 21:15:56,308 - INFO - Processing data.
+2024-09-02 21:15:56,309 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 21:15:56,311 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:15:56,311 - INFO - 127.0.0.1 - - [02/Sep/2024 21:15:56] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 21:15:56,320 - INFO - Accessing the report endpoint.
+2024-09-02 21:15:56,320 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:15:56,320 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:15:56,460 - INFO - 127.0.0.1 - - [02/Sep/2024 21:15:56] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:15:56,495 - INFO - 127.0.0.1 - - [02/Sep/2024 21:15:56] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 21:15:56,495 - INFO - 127.0.0.1 - - [02/Sep/2024 21:15:56] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:15:56,515 - INFO - 127.0.0.1 - - [02/Sep/2024 21:15:56] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=PEhcJD9KzMYrDdJIEnuU HTTP/1.1" 200 -
+2024-09-02 21:15:56,568 - INFO - 127.0.0.1 - - [02/Sep/2024 21:15:56] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-02 21:17:14,782 - INFO - Accessing input form endpoint.
+2024-09-02 21:17:14,782 - INFO - Reading datafile.
+2024-09-02 21:17:14,788 - INFO - Datafile read succeeded.
+2024-09-02 21:17:14,788 - INFO - Form validation successful, POST request sent.
+2024-09-02 21:17:14,788 - INFO - Reading form data.
+2024-09-02 21:17:14,790 - INFO - Form data read successful.
+2024-09-02 21:17:14,790 - INFO - Processing data.
+2024-09-02 21:17:14,790 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:17:14,791 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:17:14,845 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:14] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-02 21:17:14,861 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:14] "GET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-02 21:17:14,869 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:14] "GET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-02 21:17:15,030 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:15] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=PEhcJD9KzMYrDdJIEnuU HTTP/1.1" 200 -
+2024-09-02 21:17:15,159 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:15] "GET /input?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-02 21:17:16,136 - INFO - Accessing input form endpoint.
+2024-09-02 21:17:16,138 - INFO - Reading datafile.
+2024-09-02 21:17:16,143 - INFO - Datafile read succeeded.
+2024-09-02 21:17:16,150 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:16] "GET /input HTTP/1.1" 200 -
+2024-09-02 21:17:18,241 - INFO - Accessing input form endpoint.
+2024-09-02 21:17:18,241 - INFO - Reading datafile.
+2024-09-02 21:17:18,252 - INFO - Datafile read succeeded.
+2024-09-02 21:17:18,252 - INFO - Form validation successful, POST request sent.
+2024-09-02 21:17:18,252 - INFO - Reading form data.
+2024-09-02 21:17:18,252 - INFO - Form data read successful.
+2024-09-02 21:17:18,252 - INFO - Processing data.
+2024-09-02 21:17:18,252 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:17:18,258 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 21:17:18,262 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:18] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 21:17:18,268 - INFO - Accessing the report endpoint.
+2024-09-02 21:17:18,268 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:17:18,268 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:17:18,344 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:18] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:17:18,372 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:18] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:17:18,372 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:18] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 21:17:18,383 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:18] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=PEhcJD9KzMYrDdJIEnuU HTTP/1.1[0m" 304 -
+2024-09-02 21:17:48,923 - INFO - Accessing input form endpoint.
+2024-09-02 21:17:48,928 - INFO - Reading datafile.
+2024-09-02 21:17:48,936 - INFO - Datafile read succeeded.
+2024-09-02 21:17:48,936 - INFO - Form validation successful, POST request sent.
+2024-09-02 21:17:48,936 - INFO - Reading form data.
+2024-09-02 21:17:48,936 - INFO - Form data read successful.
+2024-09-02 21:17:48,936 - INFO - Processing data.
+2024-09-02 21:17:48,936 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-02 21:17:48,940 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-02 21:17:48,940 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:48] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-02 21:17:48,948 - INFO - Accessing the report endpoint.
+2024-09-02 21:17:48,948 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:17:48,948 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:17:48,981 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:48] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:17:49,010 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:49] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:17:49,010 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:49] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 21:17:49,023 - INFO - 127.0.0.1 - - [02/Sep/2024 21:17:49] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=PEhcJD9KzMYrDdJIEnuU HTTP/1.1[0m" 304 -
+2024-09-02 21:19:03,785 - INFO - Accessing the report endpoint.
+2024-09-02 21:19:03,785 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:19:03,785 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:19:03,800 - INFO - 127.0.0.1 - - [02/Sep/2024 21:19:03] "GET /report HTTP/1.1" 200 -
+2024-09-02 21:19:03,818 - INFO - 127.0.0.1 - - [02/Sep/2024 21:19:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:20:14,088 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 21:20:14,088 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 21:20:14,088 - INFO -  * Restarting with stat
+2024-09-02 21:20:15,958 - WARNING -  * Debugger is active!
+2024-09-02 21:20:15,972 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:20:18,062 - INFO - Accessing the report endpoint.
+2024-09-02 21:20:18,062 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:20:18,063 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:20:18,079 - INFO - 127.0.0.1 - - [02/Sep/2024 21:20:18] "GET /report HTTP/1.1" 200 -
+2024-09-02 21:20:18,170 - INFO - 127.0.0.1 - - [02/Sep/2024 21:20:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:20:35,897 - INFO - Accessing the report endpoint.
+2024-09-02 21:20:35,898 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:20:35,898 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:20:35,908 - INFO - 127.0.0.1 - - [02/Sep/2024 21:20:35] "GET /report HTTP/1.1" 200 -
+2024-09-02 21:20:35,922 - INFO - 127.0.0.1 - - [02/Sep/2024 21:20:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:20:51,930 - INFO - Accessing the report endpoint.
+2024-09-02 21:20:51,930 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:20:51,930 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:20:51,991 - INFO - 127.0.0.1 - - [02/Sep/2024 21:20:51] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-02 21:20:52,008 - INFO - 127.0.0.1 - - [02/Sep/2024 21:20:52] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:20:52,011 - INFO - 127.0.0.1 - - [02/Sep/2024 21:20:52] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-02 21:20:52,038 - INFO - 127.0.0.1 - - [02/Sep/2024 21:20:52] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=T8n1SQsP8iJYvSlnGEv2 HTTP/1.1" 200 -
+2024-09-02 21:20:52,058 - INFO - 127.0.0.1 - - [02/Sep/2024 21:20:52] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-02 21:21:06,478 - INFO - Accessing the report endpoint.
+2024-09-02 21:21:06,478 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:21:06,478 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:21:06,495 - INFO - 127.0.0.1 - - [02/Sep/2024 21:21:06] "GET /report HTTP/1.1" 200 -
+2024-09-02 21:21:06,508 - INFO - 127.0.0.1 - - [02/Sep/2024 21:21:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:21:35,806 - INFO - Accessing the report endpoint.
+2024-09-02 21:21:35,806 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:21:35,806 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:21:35,818 - INFO - 127.0.0.1 - - [02/Sep/2024 21:21:35] "GET /report HTTP/1.1" 200 -
+2024-09-02 21:21:35,834 - INFO - 127.0.0.1 - - [02/Sep/2024 21:21:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:22:12,450 - INFO - Accessing the report endpoint.
+2024-09-02 21:22:12,450 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:22:12,450 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:22:12,459 - INFO - 127.0.0.1 - - [02/Sep/2024 21:22:12] "GET /report HTTP/1.1" 200 -
+2024-09-02 21:22:12,473 - INFO - 127.0.0.1 - - [02/Sep/2024 21:22:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:24:57,559 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 21:24:57,679 - INFO -  * Restarting with stat
+2024-09-02 21:24:59,473 - WARNING -  * Debugger is active!
+2024-09-02 21:24:59,485 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:25:13,567 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 21:25:13,698 - INFO -  * Restarting with stat
+2024-09-02 21:25:15,591 - WARNING -  * Debugger is active!
+2024-09-02 21:25:15,598 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:25:27,259 - INFO - Accessing the report endpoint.
+2024-09-02 21:25:27,259 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 21:25:27,259 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 21:25:27,283 - INFO - 127.0.0.1 - - [02/Sep/2024 21:25:27] "GET /report HTTP/1.1" 200 -
+2024-09-02 21:25:27,447 - INFO - 127.0.0.1 - - [02/Sep/2024 21:25:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-02 21:28:11,216 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-02 21:28:11,513 - INFO -  * Restarting with stat
+2024-09-02 21:28:13,460 - WARNING -  * Debugger is active!
+2024-09-02 21:28:13,478 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:28:16,063 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 21:28:16,198 - INFO -  * Restarting with stat
+2024-09-02 21:28:17,942 - WARNING -  * Debugger is active!
+2024-09-02 21:28:17,950 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 21:29:19,999 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-02 21:29:20,123 - INFO -  * Restarting with stat
+2024-09-02 22:28:11,296 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-02 22:28:11,296 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-02 22:28:11,299 - INFO -  * Restarting with stat
+2024-09-02 22:28:12,529 - WARNING -  * Debugger is active!
+2024-09-02 22:28:12,538 - INFO -  * Debugger PIN: 357-325-493
+2024-09-02 22:31:03,508 - INFO - Accessing the report endpoint.
+2024-09-02 22:31:03,508 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-02 22:31:03,508 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-02 22:31:03,532 - INFO - 127.0.0.1 - - [02/Sep/2024 22:31:03] "GET /report HTTP/1.1" 200 -
+2024-09-02 22:31:03,647 - INFO - 127.0.0.1 - - [02/Sep/2024 22:31:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:10:58,103 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:10:58,297 - INFO -  * Restarting with stat
+2024-09-03 11:11:22,746 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-03 11:11:22,746 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-03 11:11:22,749 - INFO -  * Restarting with stat
+2024-09-03 11:11:24,210 - WARNING -  * Debugger is active!
+2024-09-03 11:11:24,226 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:11:31,026 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 11:11:31,122 - INFO -  * Restarting with stat
+2024-09-03 11:11:32,289 - WARNING -  * Debugger is active!
+2024-09-03 11:11:32,298 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:11:41,210 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:11:41,287 - INFO -  * Restarting with stat
+2024-09-03 11:23:45,872 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-03 11:23:45,872 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-03 11:23:45,876 - INFO -  * Restarting with stat
+2024-09-03 11:23:49,297 - WARNING -  * Debugger is active!
+2024-09-03 11:23:49,308 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:23:50,940 - INFO - Accessing the report endpoint.
+2024-09-03 11:23:50,941 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:23:50,941 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:23:50,964 - INFO - 127.0.0.1 - - [03/Sep/2024 11:23:50] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 11:23:51,097 - INFO - 127.0.0.1 - - [03/Sep/2024 11:23:51] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 11:23:51,098 - INFO - 127.0.0.1 - - [03/Sep/2024 11:23:51] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:23:51,119 - INFO - 127.0.0.1 - - [03/Sep/2024 11:23:51] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=6UWb5zmoFRQAqdzas9Lu HTTP/1.1" 200 -
+2024-09-03 11:23:51,205 - INFO - 127.0.0.1 - - [03/Sep/2024 11:23:51] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 11:46:13,741 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:46:13,823 - INFO -  * Restarting with stat
+2024-09-03 11:46:15,111 - WARNING -  * Debugger is active!
+2024-09-03 11:46:15,120 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:46:32,620 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:46:32,692 - INFO -  * Restarting with stat
+2024-09-03 11:46:33,775 - WARNING -  * Debugger is active!
+2024-09-03 11:46:33,783 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:46:35,018 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:46:35,108 - INFO -  * Restarting with stat
+2024-09-03 11:46:36,229 - WARNING -  * Debugger is active!
+2024-09-03 11:46:36,236 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:46:40,663 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:46:40,746 - INFO -  * Restarting with stat
+2024-09-03 11:46:42,019 - WARNING -  * Debugger is active!
+2024-09-03 11:46:42,036 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:46:43,350 - INFO - Accessing the report endpoint.
+2024-09-03 11:46:43,351 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:46:43,351 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:46:43,386 - INFO - 127.0.0.1 - - [03/Sep/2024 11:46:43] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 11:46:43,550 - INFO - 127.0.0.1 - - [03/Sep/2024 11:46:43] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:46:43,566 - INFO - 127.0.0.1 - - [03/Sep/2024 11:46:43] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 11:46:43,595 - INFO - 127.0.0.1 - - [03/Sep/2024 11:46:43] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=lCchdnFjD6uw5zTgcp8g HTTP/1.1" 200 -
+2024-09-03 11:46:43,610 - INFO - 127.0.0.1 - - [03/Sep/2024 11:46:43] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 11:46:51,304 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:46:51,397 - INFO -  * Restarting with stat
+2024-09-03 11:46:52,892 - WARNING -  * Debugger is active!
+2024-09-03 11:46:52,909 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:47:16,057 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:47:16,150 - INFO -  * Restarting with stat
+2024-09-03 11:47:17,164 - WARNING -  * Debugger is active!
+2024-09-03 11:47:17,172 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:47:44,385 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:47:44,456 - INFO -  * Restarting with stat
+2024-09-03 11:47:45,524 - WARNING -  * Debugger is active!
+2024-09-03 11:47:45,533 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:47:48,953 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:47:49,026 - INFO -  * Restarting with stat
+2024-09-03 11:47:50,265 - WARNING -  * Debugger is active!
+2024-09-03 11:47:50,275 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:48:13,073 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:48:13,146 - INFO -  * Restarting with stat
+2024-09-03 11:48:14,187 - WARNING -  * Debugger is active!
+2024-09-03 11:48:14,195 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:48:35,932 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:48:36,011 - INFO -  * Restarting with stat
+2024-09-03 11:48:37,285 - WARNING -  * Debugger is active!
+2024-09-03 11:48:37,295 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:49:58,576 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:49:58,647 - INFO -  * Restarting with stat
+2024-09-03 11:49:59,722 - WARNING -  * Debugger is active!
+2024-09-03 11:49:59,732 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:50:03,124 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:50:03,204 - INFO -  * Restarting with stat
+2024-09-03 11:50:04,137 - WARNING -  * Debugger is active!
+2024-09-03 11:50:04,144 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:50:05,389 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:50:05,467 - INFO -  * Restarting with stat
+2024-09-03 11:50:06,603 - WARNING -  * Debugger is active!
+2024-09-03 11:50:06,612 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:50:11,181 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:50:11,277 - INFO -  * Restarting with stat
+2024-09-03 11:50:12,201 - WARNING -  * Debugger is active!
+2024-09-03 11:50:12,207 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:50:17,409 - INFO - Accessing input form endpoint.
+2024-09-03 11:50:17,413 - INFO - Reading datafile.
+2024-09-03 11:50:17,437 - INFO - Datafile read succeeded.
+2024-09-03 11:50:17,459 - INFO - 127.0.0.1 - - [03/Sep/2024 11:50:17] "GET /input HTTP/1.1" 200 -
+2024-09-03 11:50:17,531 - INFO - 127.0.0.1 - - [03/Sep/2024 11:50:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:51:55,476 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:51:55,614 - INFO -  * Restarting with stat
+2024-09-03 11:51:58,226 - WARNING -  * Debugger is active!
+2024-09-03 11:51:58,236 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:52:12,840 - INFO - Accessing input form endpoint.
+2024-09-03 11:52:12,842 - INFO - Reading datafile.
+2024-09-03 11:52:12,850 - INFO - Datafile read succeeded.
+2024-09-03 11:52:12,851 - INFO - Form validation successful, POST request sent.
+2024-09-03 11:52:12,851 - INFO - Reading form data.
+2024-09-03 11:52:12,851 - INFO - Form data read successful.
+2024-09-03 11:52:12,851 - INFO - Processing data.
+2024-09-03 11:52:12,851 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 11:52:12,853 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 11:52:12,874 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:12] "[35m[1mPOST /input HTTP/1.1[0m" 500 -
+2024-09-03 11:52:12,976 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:12] "[36mGET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:52:12,979 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:12] "[36mGET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 11:52:12,992 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:12] "GET /input?__debugger__=yes&cmd=resource&f=console.png&s=BZIBiR4pufyps8AExp7b HTTP/1.1" 200 -
+2024-09-03 11:52:33,074 - INFO - Accessing input form endpoint.
+2024-09-03 11:52:33,075 - INFO - Reading datafile.
+2024-09-03 11:52:33,078 - INFO - Datafile read succeeded.
+2024-09-03 11:52:33,078 - INFO - Form validation successful, POST request sent.
+2024-09-03 11:52:33,078 - INFO - Reading form data.
+2024-09-03 11:52:33,078 - INFO - Form data read successful.
+2024-09-03 11:52:33,078 - INFO - Processing data.
+2024-09-03 11:52:33,078 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 11:52:33,079 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-03 11:52:33,084 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:33] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-03 11:52:33,088 - INFO - Accessing the report endpoint.
+2024-09-03 11:52:33,088 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:52:33,088 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:52:33,101 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:33] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:52:33,116 - INFO - 127.0.0.1 - - [03/Sep/2024 11:52:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:52:44,177 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 11:52:44,314 - INFO -  * Restarting with stat
+2024-09-03 11:52:45,992 - WARNING -  * Debugger is active!
+2024-09-03 11:52:46,007 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:52:56,133 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 11:52:56,217 - INFO -  * Restarting with stat
+2024-09-03 11:52:58,200 - WARNING -  * Debugger is active!
+2024-09-03 11:52:58,213 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:53:00,764 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 11:53:00,850 - INFO -  * Restarting with stat
+2024-09-03 11:53:02,379 - WARNING -  * Debugger is active!
+2024-09-03 11:53:02,395 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:53:05,064 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 11:53:05,180 - INFO -  * Restarting with stat
+2024-09-03 11:53:06,795 - WARNING -  * Debugger is active!
+2024-09-03 11:53:06,803 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:53:20,282 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 11:53:20,397 - INFO -  * Restarting with stat
+2024-09-03 11:53:22,434 - WARNING -  * Debugger is active!
+2024-09-03 11:53:22,443 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:53:22,740 - INFO - Accessing the report endpoint.
+2024-09-03 11:53:22,740 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:53:22,742 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:53:22,755 - INFO - 127.0.0.1 - - [03/Sep/2024 11:53:22] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:53:22,841 - INFO - 127.0.0.1 - - [03/Sep/2024 11:53:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:53:48,393 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:53:48,497 - INFO -  * Restarting with stat
+2024-09-03 11:53:50,131 - WARNING -  * Debugger is active!
+2024-09-03 11:53:50,140 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:53:53,456 - INFO - Accessing the report endpoint.
+2024-09-03 11:53:53,456 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:53:53,456 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:53:53,470 - INFO - 127.0.0.1 - - [03/Sep/2024 11:53:53] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:53:53,530 - INFO - 127.0.0.1 - - [03/Sep/2024 11:53:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:54:07,071 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:54:07,163 - INFO -  * Restarting with stat
+2024-09-03 11:54:08,675 - WARNING -  * Debugger is active!
+2024-09-03 11:54:08,688 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:54:17,630 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:54:17,740 - INFO -  * Restarting with stat
+2024-09-03 11:54:19,261 - WARNING -  * Debugger is active!
+2024-09-03 11:54:19,272 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:54:19,397 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:19,398 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:19,398 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:19,399 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:19,399 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:19,400 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:19,400 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:19,401 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:19,403 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:19,402 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:19,404 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:19,405 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:19,405 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:19,407 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:19,407 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:19,447 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:19] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:19,449 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:19] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:19,451 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:19] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:19,453 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:19] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:19,457 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:19] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:19,546 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:54:26,098 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 11:54:26,249 - INFO -  * Restarting with stat
+2024-09-03 11:54:27,453 - WARNING -  * Debugger is active!
+2024-09-03 11:54:27,462 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 11:54:27,569 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:27,570 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:27,570 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:27,583 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:27] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:27,662 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:54:27,696 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:27,697 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:27,697 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:27,699 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:27] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:27,709 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:54:28,324 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:28,324 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:28,324 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:28,325 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:28] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:28,336 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:54:53,007 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:53,007 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:53,007 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:53,014 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:53] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:53,024 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:54:54,876 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:54,876 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:54,876 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:54,877 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:54] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:54,886 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:54:55,192 - INFO - Accessing the report endpoint.
+2024-09-03 11:54:55,192 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:54:55,192 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:54:55,193 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:55] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:54:55,201 - INFO - 127.0.0.1 - - [03/Sep/2024 11:54:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:55:01,749 - INFO - Accessing the report endpoint.
+2024-09-03 11:55:01,749 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:55:01,749 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:55:01,758 - INFO - 127.0.0.1 - - [03/Sep/2024 11:55:01] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:55:01,770 - INFO - 127.0.0.1 - - [03/Sep/2024 11:55:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 11:55:31,100 - INFO - Accessing input form endpoint.
+2024-09-03 11:55:31,105 - INFO - Reading datafile.
+2024-09-03 11:55:31,115 - INFO - Datafile read succeeded.
+2024-09-03 11:55:31,115 - INFO - Form validation successful, POST request sent.
+2024-09-03 11:55:31,115 - INFO - Reading form data.
+2024-09-03 11:55:31,116 - INFO - Form data read successful.
+2024-09-03 11:55:31,116 - INFO - Processing data.
+2024-09-03 11:55:31,116 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-03 11:55:31,119 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 11:55:31,121 - INFO - 127.0.0.1 - - [03/Sep/2024 11:55:31] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-03 11:55:31,125 - INFO - Accessing the report endpoint.
+2024-09-03 11:55:31,126 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 11:55:31,126 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 11:55:31,138 - INFO - 127.0.0.1 - - [03/Sep/2024 11:55:31] "GET /report HTTP/1.1" 200 -
+2024-09-03 11:55:31,157 - INFO - 127.0.0.1 - - [03/Sep/2024 11:55:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 12:05:13,131 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\pipeline_tasks\\tasks.py', reloading
+2024-09-03 12:05:13,352 - INFO -  * Restarting with stat
+2024-09-03 12:05:16,527 - WARNING -  * Debugger is active!
+2024-09-03 12:05:16,548 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 12:05:55,256 - INFO - Accessing the report endpoint.
+2024-09-03 12:05:55,257 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 12:05:55,257 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 12:05:55,316 - INFO - 127.0.0.1 - - [03/Sep/2024 12:05:55] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 12:05:55,486 - INFO - 127.0.0.1 - - [03/Sep/2024 12:05:55] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 12:05:55,490 - INFO - 127.0.0.1 - - [03/Sep/2024 12:05:55] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 12:05:55,515 - INFO - 127.0.0.1 - - [03/Sep/2024 12:05:55] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=HmEf7hPPobrrcrUgN8Fz HTTP/1.1" 200 -
+2024-09-03 12:05:55,538 - INFO - 127.0.0.1 - - [03/Sep/2024 12:05:55] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 12:06:23,981 - INFO - Accessing the report endpoint.
+2024-09-03 12:06:23,981 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 12:06:23,981 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 12:06:24,009 - INFO - 127.0.0.1 - - [03/Sep/2024 12:06:24] "GET /report HTTP/1.1" 200 -
+2024-09-03 12:06:24,025 - INFO - 127.0.0.1 - - [03/Sep/2024 12:06:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 12:11:02,821 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 12:11:02,923 - INFO -  * Restarting with stat
+2024-09-03 12:11:04,905 - WARNING -  * Debugger is active!
+2024-09-03 12:11:04,918 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 12:20:17,224 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 12:20:17,379 - INFO -  * Restarting with stat
+2024-09-03 12:20:19,556 - WARNING -  * Debugger is active!
+2024-09-03 12:20:19,567 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 12:53:32,948 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 12:53:33,049 - INFO -  * Restarting with stat
+2024-09-03 12:53:35,119 - WARNING -  * Debugger is active!
+2024-09-03 12:53:35,131 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 13:09:21,095 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-03 13:09:21,097 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-03 13:09:21,100 - INFO -  * Restarting with stat
+2024-09-03 13:09:23,159 - WARNING -  * Debugger is active!
+2024-09-03 13:09:23,173 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 13:09:23,297 - INFO - Accessing the report endpoint.
+2024-09-03 13:09:23,298 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:09:23,298 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:09:23,355 - INFO - 127.0.0.1 - - [03/Sep/2024 13:09:23] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:09:23,523 - INFO - 127.0.0.1 - - [03/Sep/2024 13:09:23] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:09:23,525 - INFO - 127.0.0.1 - - [03/Sep/2024 13:09:23] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 13:09:23,548 - INFO - 127.0.0.1 - - [03/Sep/2024 13:09:23] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=t314jbBgYAEXzbXR4ArE HTTP/1.1" 200 -
+2024-09-03 13:09:23,568 - INFO - 127.0.0.1 - - [03/Sep/2024 13:09:23] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 13:10:20,692 - INFO - Accessing the report endpoint.
+2024-09-03 13:10:20,693 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:10:20,693 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:10:20,732 - INFO - 127.0.0.1 - - [03/Sep/2024 13:10:20] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:10:20,746 - INFO - 127.0.0.1 - - [03/Sep/2024 13:10:20] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:10:20,747 - INFO - 127.0.0.1 - - [03/Sep/2024 13:10:20] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 13:10:20,764 - INFO - 127.0.0.1 - - [03/Sep/2024 13:10:20] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=t314jbBgYAEXzbXR4ArE HTTP/1.1[0m" 304 -
+2024-09-03 13:10:20,787 - INFO - 127.0.0.1 - - [03/Sep/2024 13:10:20] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 13:11:24,394 - INFO - Accessing the report endpoint.
+2024-09-03 13:11:24,394 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:11:24,394 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:11:24,439 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:11:24,452 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:11:24,455 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 13:11:24,476 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=t314jbBgYAEXzbXR4ArE HTTP/1.1[0m" 304 -
+2024-09-03 13:11:24,498 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 13:11:24,891 - INFO - Accessing the report endpoint.
+2024-09-03 13:11:24,891 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:11:24,891 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:11:24,923 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:11:24,935 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:11:24,940 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 13:11:24,958 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=t314jbBgYAEXzbXR4ArE HTTP/1.1[0m" 304 -
+2024-09-03 13:11:24,978 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:24] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 13:11:46,310 - INFO - Accessing the report endpoint.
+2024-09-03 13:11:46,310 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:11:46,310 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:11:46,355 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:46] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:11:46,368 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:46] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:11:46,368 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:46] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 13:11:46,386 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:46] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=t314jbBgYAEXzbXR4ArE HTTP/1.1[0m" 304 -
+2024-09-03 13:11:46,403 - INFO - 127.0.0.1 - - [03/Sep/2024 13:11:46] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 13:12:05,597 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 13:12:05,730 - INFO -  * Restarting with stat
+2024-09-03 13:12:08,402 - WARNING -  * Debugger is active!
+2024-09-03 13:12:08,419 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 13:12:08,577 - INFO - Accessing the report endpoint.
+2024-09-03 13:12:08,578 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:12:08,578 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:12:08,671 - INFO - 127.0.0.1 - - [03/Sep/2024 13:12:08] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:12:08,847 - INFO - 127.0.0.1 - - [03/Sep/2024 13:12:08] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:12:08,854 - INFO - 127.0.0.1 - - [03/Sep/2024 13:12:08] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 13:12:08,867 - INFO - 127.0.0.1 - - [03/Sep/2024 13:12:08] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=nU8I1Hxtb7dL9jafek9v HTTP/1.1" 200 -
+2024-09-03 13:12:08,896 - INFO - 127.0.0.1 - - [03/Sep/2024 13:12:08] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 13:16:11,001 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 13:16:11,080 - INFO -  * Restarting with stat
+2024-09-03 13:16:12,204 - WARNING -  * Debugger is active!
+2024-09-03 13:16:12,211 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 13:16:16,838 - INFO - Accessing the report endpoint.
+2024-09-03 13:16:16,838 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:16:16,839 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:16:16,879 - INFO - 127.0.0.1 - - [03/Sep/2024 13:16:16] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:16:16,975 - INFO - 127.0.0.1 - - [03/Sep/2024 13:16:16] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:16:16,975 - INFO - 127.0.0.1 - - [03/Sep/2024 13:16:16] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 13:16:16,988 - INFO - 127.0.0.1 - - [03/Sep/2024 13:16:16] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=Zg18XNfbArNj9DkZ0tcj HTTP/1.1" 200 -
+2024-09-03 13:16:16,999 - INFO - 127.0.0.1 - - [03/Sep/2024 13:16:16] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-03 13:17:47,267 - INFO - Accessing input form endpoint.
+2024-09-03 13:17:47,271 - INFO - Reading datafile.
+2024-09-03 13:17:47,287 - INFO - Datafile read succeeded.
+2024-09-03 13:17:47,321 - INFO - 127.0.0.1 - - [03/Sep/2024 13:17:47] "GET /input HTTP/1.1" 200 -
+2024-09-03 13:17:47,344 - INFO - 127.0.0.1 - - [03/Sep/2024 13:17:47] "GET /static/style.css HTTP/1.1" 200 -
+2024-09-03 13:17:48,350 - INFO - 127.0.0.1 - - [03/Sep/2024 13:17:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-03 13:18:30,767 - INFO - Accessing input form endpoint.
+2024-09-03 13:18:30,767 - INFO - Reading datafile.
+2024-09-03 13:18:30,771 - INFO - Datafile read succeeded.
+2024-09-03 13:18:30,771 - INFO - Form validation successful, POST request sent.
+2024-09-03 13:18:30,772 - INFO - Reading form data.
+2024-09-03 13:18:30,772 - INFO - Form data read successful.
+2024-09-03 13:18:30,772 - INFO - Processing data.
+2024-09-03 13:18:30,772 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 13:18:30,773 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-03 13:18:30,775 - INFO - 127.0.0.1 - - [03/Sep/2024 13:18:30] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-03 13:18:30,780 - INFO - Accessing the report endpoint.
+2024-09-03 13:18:30,780 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:18:30,781 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:18:30,813 - INFO - 127.0.0.1 - - [03/Sep/2024 13:18:30] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:18:30,835 - INFO - 127.0.0.1 - - [03/Sep/2024 13:18:30] "GET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-03 13:18:30,836 - INFO - 127.0.0.1 - - [03/Sep/2024 13:18:30] "GET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-03 13:18:30,847 - INFO - 127.0.0.1 - - [03/Sep/2024 13:18:30] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=Zg18XNfbArNj9DkZ0tcj HTTP/1.1" 200 -
+2024-09-03 13:18:30,890 - INFO - 127.0.0.1 - - [03/Sep/2024 13:18:30] "GET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-03 13:20:06,937 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 13:20:07,047 - INFO -  * Restarting with stat
+2024-09-03 13:20:08,498 - WARNING -  * Debugger is active!
+2024-09-03 13:20:08,512 - INFO -  * Debugger PIN: 357-325-493
+2024-09-03 13:20:16,898 - INFO - Accessing the report endpoint.
+2024-09-03 13:20:16,898 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:20:16,898 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:20:16,941 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:16] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:20:17,046 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:17] "GET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-03 13:20:17,047 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:17] "GET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-03 13:20:17,068 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:17] "GET /report?__debugger__=yes&cmd=resource&f=console.png&s=mXyfzm3YOlhBsdjaQqgT HTTP/1.1" 200 -
+2024-09-03 13:20:17,079 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:17] "GET /report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-03 13:20:18,748 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-03 13:20:20,762 - INFO - Accessing input form endpoint.
+2024-09-03 13:20:20,764 - INFO - Reading datafile.
+2024-09-03 13:20:20,772 - INFO - Datafile read succeeded.
+2024-09-03 13:20:20,772 - INFO - Form validation successful, POST request sent.
+2024-09-03 13:20:20,772 - INFO - Reading form data.
+2024-09-03 13:20:20,772 - INFO - Form data read successful.
+2024-09-03 13:20:20,772 - INFO - Processing data.
+2024-09-03 13:20:20,772 - INFO - Accessed missingValues task inside pre-processing framework.
+2024-09-03 13:20:20,774 - INFO - Accessed duplicateValues task inside pre-processing framework.
+2024-09-03 13:20:20,777 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:20] "[32mPOST /input HTTP/1.1[0m" 302 -
+2024-09-03 13:20:20,783 - INFO - Accessing the report endpoint.
+2024-09-03 13:20:20,784 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:20:20,784 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:20:20,826 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:20] "[35m[1mGET /report HTTP/1.1[0m" 500 -
+2024-09-03 13:20:20,849 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:20] "[36mGET /report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:20:20,852 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:20] "[36mGET /report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-03 13:20:20,862 - INFO - 127.0.0.1 - - [03/Sep/2024 13:20:20] "[36mGET /report?__debugger__=yes&cmd=resource&f=console.png&s=mXyfzm3YOlhBsdjaQqgT HTTP/1.1[0m" 304 -
+2024-09-03 13:22:53,738 - INFO - Accessing the report endpoint.
+2024-09-03 13:22:53,739 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:22:53,739 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:22:53,753 - INFO - 127.0.0.1 - - [03/Sep/2024 13:22:53] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:22:53,764 - INFO - 127.0.0.1 - - [03/Sep/2024 13:22:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:23:25,129 - INFO - Accessing the report endpoint.
+2024-09-03 13:23:25,129 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:23:25,129 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:23:25,143 - INFO - 127.0.0.1 - - [03/Sep/2024 13:23:25] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:23:25,153 - INFO - 127.0.0.1 - - [03/Sep/2024 13:23:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:30,020 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:30,020 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:30,020 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:30,033 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:30] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:30,044 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:31,285 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:31,285 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:31,285 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:31,287 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:31] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:31,297 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:31,706 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:31,706 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:31,706 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:31,708 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:31] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:31,718 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:31,892 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:31,893 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:31,893 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:31,894 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:31] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:31,904 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:32,058 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:32,059 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:32,059 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:32,060 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:32,069 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:32,212 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:32,212 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:32,212 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:32,214 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:32,222 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:32,377 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:32,377 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:32,377 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:32,378 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:32,387 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:32,684 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:32,685 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:32,685 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:32,686 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:32,695 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:32,866 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:32,866 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:32,866 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:32,868 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:32,877 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:34,314 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:34,315 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:34,316 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:34,318 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:34] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:34,327 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 13:26:34,477 - INFO - Accessing the report endpoint.
+2024-09-03 13:26:34,477 - INFO - Accessed get_missingVals_report task inside pre-processing framework.
+2024-09-03 13:26:34,477 - INFO - Accessed get_duplicateValues_report task inside pre-processing framework.
+2024-09-03 13:26:34,479 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:34] "GET /report HTTP/1.1" 200 -
+2024-09-03 13:26:34,489 - INFO - 127.0.0.1 - - [03/Sep/2024 13:26:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-09-03 15:22:05,714 - INFO -  * Detected change in 'C:\\Users\\Ojasva Saxena\\Desktop\\Personal\\Applications\\CivicDataLab_Pipeline\\Data-Pipeline-CDL\\cdl_pipeline\\routes.py', reloading
+2024-09-03 15:22:05,846 - INFO -  * Restarting with stat
+2024-09-03 15:22:08,135 - WARNING -  * Debugger is active!
+2024-09-03 15:22:08,152 - INFO -  * Debugger PIN: 357-325-493
