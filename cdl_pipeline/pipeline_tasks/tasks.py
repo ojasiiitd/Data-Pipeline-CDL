@@ -15,8 +15,10 @@ def missingValues(df , thresh_dict):
         total_values = len(df)
         missing_values = df[col].isnull().sum()
         missing_percentage = (missing_values / total_values) * 100
-        
+
         results[col] = "There\'s more missing data than the threshold. Data in this column is not suitable for use." if missing_percentage > thresh else "Less missing data than the threshold. You may use this column!" 
+    
+    logger.info("Calculated missingValues percentage... Generating report data")
 
     return results
 
@@ -24,6 +26,8 @@ def get_missingVals_report(result):
     logger.info("Accessed get_missingVals_report task inside pre-processing framework.")
 
     formatted = [(key, value) for key, value in result.items()]
+
+    logger.info("Formatting report data: get_missingVals_report")
 
     return formatted
 
@@ -48,7 +52,7 @@ def duplicateValues(df , columns):
     
     results['column_duplicates'] = column_duplicates
 
-    # print(results)
+    logger.info("Calculated duplicateValues... Generating report data")
 
     return results
 
@@ -68,6 +72,6 @@ def get_duplicateValues_report(result):
 
         format_report.append((elt[0] , desc))
 
-    # print(format_report)
+    logger.info("Formatting report data: get_duplicateValues_report")
 
     return format_report
